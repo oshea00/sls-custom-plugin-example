@@ -1,7 +1,7 @@
 # Custom Serverless Plugin Development
 Example of creating a custom plugin for serverless framework.
 
-## Steps
+## Steps used to create example from sls templates
 1. ```>sls create -t aws-csharp -p slsplugindev```
 2. ```>cd slsplugindev```
 3. ```>mkdir .serverless_plugins```
@@ -12,8 +12,23 @@ Example of creating a custom plugin for serverless framework.
 plugins:
  -myplugin
 ```
+7. Edit the index.js file in the myplugin directory replacing the default example.
+## Seeing it execute
+
+To get something minimal for serverless to deploy, I chose an aws-csharp teamplate. I've already got a working dotnet
+core environment, so just need to complie using the build.sh script then run the deploy.
+
 This example plugin hooks in the deploy command and adds some custom processing. To see it in action:
 ```
 >sls deploy -s dev -v
 ```
- 
+
+Of course, I could have used a node or python lambda template instead. The main things to notice in this example
+are the specially named folder for project-local plugins and how that lets you use a plugins section reference to your plugin folder as if it were installed via npm.  
+
+At some point you might want to push your plugin to npm. See the references below for more on that, and it was a source for my example here. Recommended reading.
+
+
+## References
+* [How to write and test a serverless plugin](https://dev.to/dvddpl/how-to-write-and-test-a-serverless-plugin-3152)
+
