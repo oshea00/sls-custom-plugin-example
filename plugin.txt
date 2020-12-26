@@ -1,0 +1,5963 @@
+Serverless: Packaging service...
+Serverless instance: : {
+  "providers": {
+    "aws": {
+      "naming": {
+        "provider": "[circular ref]"
+      },
+      "options": {
+        "s": "dev",
+        "v": true,
+        "version": true,
+        "stage": "dev",
+        "region": "us-west-2",
+        "verbose": true
+      },
+      "provider": "[circular ref]",
+      "serverless": "[circular ref]",
+      "sdk": {
+        "util": {
+          "environment": "nodejs",
+          "base64": {},
+          "buffer": {},
+          "string": {},
+          "ini": {},
+          "fn": {},
+          "date": {},
+          "crypto": {
+            "crc32Table": [
+              0,
+              1996959894,
+              3993919788,
+              2567524794,
+              124634137,
+              1886057615,
+              3915621685,
+              2657392035,
+              249268274,
+              2044508324,
+              3772115230,
+              2547177864,
+              162941995,
+              2125561021,
+              3887607047,
+              2428444049,
+              498536548,
+              1789927666,
+              4089016648,
+              2227061214,
+              450548861,
+              1843258603,
+              4107580753,
+              2211677639,
+              325883990,
+              1684777152,
+              4251122042,
+              2321926636,
+              335633487,
+              1661365465,
+              4195302755,
+              2366115317,
+              997073096,
+              1281953886,
+              3579855332,
+              2724688242,
+              1006888145,
+              1258607687,
+              3524101629,
+              2768942443,
+              901097722,
+              1119000684,
+              3686517206,
+              2898065728,
+              853044451,
+              1172266101,
+              3705015759,
+              2882616665,
+              651767980,
+              1373503546,
+              3369554304,
+              3218104598,
+              565507253,
+              1454621731,
+              3485111705,
+              3099436303,
+              671266974,
+              1594198024,
+              3322730930,
+              2970347812,
+              795835527,
+              1483230225,
+              3244367275,
+              3060149565,
+              1994146192,
+              31158534,
+              2563907772,
+              4023717930,
+              1907459465,
+              112637215,
+              2680153253,
+              3904427059,
+              2013776290,
+              251722036,
+              2517215374,
+              3775830040,
+              2137656763,
+              141376813,
+              2439277719,
+              3865271297,
+              1802195444,
+              476864866,
+              2238001368,
+              4066508878,
+              1812370925,
+              453092731,
+              2181625025,
+              4111451223,
+              1706088902,
+              314042704,
+              2344532202,
+              4240017532,
+              1658658271,
+              366619977,
+              2362670323,
+              4224994405,
+              1303535960,
+              984961486,
+              2747007092,
+              3569037538,
+              1256170817,
+              1037604311,
+              2765210733,
+              3554079995,
+              1131014506,
+              879679996,
+              2909243462,
+              3663771856,
+              1141124467,
+              855842277,
+              2852801631,
+              3708648649,
+              1342533948,
+              654459306,
+              3188396048,
+              3373015174,
+              1466479909,
+              544179635,
+              3110523913,
+              3462522015,
+              1591671054,
+              702138776,
+              2966460450,
+              3352799412,
+              1504918807,
+              783551873,
+              3082640443,
+              3233442989,
+              3988292384,
+              2596254646,
+              62317068,
+              1957810842,
+              3939845945,
+              2647816111,
+              81470997,
+              1943803523,
+              3814918930,
+              2489596804,
+              225274430,
+              2053790376,
+              3826175755,
+              2466906013,
+              167816743,
+              2097651377,
+              4027552580,
+              2265490386,
+              503444072,
+              1762050814,
+              4150417245,
+              2154129355,
+              426522225,
+              1852507879,
+              4275313526,
+              2312317920,
+              282753626,
+              1742555852,
+              4189708143,
+              2394877945,
+              397917763,
+              1622183637,
+              3604390888,
+              2714866558,
+              953729732,
+              1340076626,
+              3518719985,
+              2797360999,
+              1068828381,
+              1219638859,
+              3624741850,
+              2936675148,
+              906185462,
+              1090812512,
+              3747672003,
+              2825379669,
+              829329135,
+              1181335161,
+              3412177804,
+              3160834842,
+              628085408,
+              1382605366,
+              3423369109,
+              3138078467,
+              570562233,
+              1426400815,
+              3317316542,
+              2998733608,
+              733239954,
+              1555261956,
+              3268935591,
+              3050360625,
+              752459403,
+              1541320221,
+              2607071920,
+              3965973030,
+              1969922972,
+              40735498,
+              2617837225,
+              3943577151,
+              1913087877,
+              83908371,
+              2512341634,
+              3803740692,
+              2075208622,
+              213261112,
+              2463272603,
+              3855990285,
+              2094854071,
+              198958881,
+              2262029012,
+              4057260610,
+              1759359992,
+              534414190,
+              2176718541,
+              4139329115,
+              1873836001,
+              414664567,
+              2282248934,
+              4279200368,
+              1711684554,
+              285281116,
+              2405801727,
+              4167216745,
+              1634467795,
+              376229701,
+              2685067896,
+              3608007406,
+              1308918612,
+              956543938,
+              2808555105,
+              3495958263,
+              1231636301,
+              1047427035,
+              2932959818,
+              3654703836,
+              1088359270,
+              936918000,
+              2847714899,
+              3736837829,
+              1202900863,
+              817233897,
+              3183342108,
+              3401237130,
+              1404277552,
+              615818150,
+              3134207493,
+              3453421203,
+              1423857449,
+              601450431,
+              3009837614,
+              3294710456,
+              1567103746,
+              711928724,
+              3020668471,
+              3272380065,
+              1510334235,
+              755167117
+            ],
+            "lib": {
+              "constants": {
+                "OPENSSL_VERSION_NUMBER": 269488255,
+                "SSL_OP_ALL": 2147485780,
+                "SSL_OP_ALLOW_UNSAFE_LEGACY_RENEGOTIATION": 262144,
+                "SSL_OP_CIPHER_SERVER_PREFERENCE": 4194304,
+                "SSL_OP_CISCO_ANYCONNECT": 32768,
+                "SSL_OP_COOKIE_EXCHANGE": 8192,
+                "SSL_OP_CRYPTOPRO_TLSEXT_BUG": 2147483648,
+                "SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS": 2048,
+                "SSL_OP_EPHEMERAL_RSA": 0,
+                "SSL_OP_LEGACY_SERVER_CONNECT": 4,
+                "SSL_OP_MICROSOFT_BIG_SSLV3_BUFFER": 0,
+                "SSL_OP_MICROSOFT_SESS_ID_BUG": 0,
+                "SSL_OP_MSIE_SSLV2_RSA_PADDING": 0,
+                "SSL_OP_NETSCAPE_CA_DN_BUG": 0,
+                "SSL_OP_NETSCAPE_CHALLENGE_BUG": 0,
+                "SSL_OP_NETSCAPE_DEMO_CIPHER_CHANGE_BUG": 0,
+                "SSL_OP_NETSCAPE_REUSE_CIPHER_CHANGE_BUG": 0,
+                "SSL_OP_NO_COMPRESSION": 131072,
+                "SSL_OP_NO_QUERY_MTU": 4096,
+                "SSL_OP_NO_SESSION_RESUMPTION_ON_RENEGOTIATION": 65536,
+                "SSL_OP_NO_SSLv2": 0,
+                "SSL_OP_NO_SSLv3": 33554432,
+                "SSL_OP_NO_TICKET": 16384,
+                "SSL_OP_NO_TLSv1": 67108864,
+                "SSL_OP_NO_TLSv1_1": 268435456,
+                "SSL_OP_NO_TLSv1_2": 134217728,
+                "SSL_OP_PKCS1_CHECK_1": 0,
+                "SSL_OP_PKCS1_CHECK_2": 0,
+                "SSL_OP_SINGLE_DH_USE": 0,
+                "SSL_OP_SINGLE_ECDH_USE": 0,
+                "SSL_OP_SSLEAY_080_CLIENT_DH_BUG": 0,
+                "SSL_OP_SSLREF2_REUSE_CERT_TYPE_BUG": 0,
+                "SSL_OP_TLS_BLOCK_PADDING_BUG": 0,
+                "SSL_OP_TLS_D5_BUG": 0,
+                "SSL_OP_TLS_ROLLBACK_BUG": 8388608,
+                "ENGINE_METHOD_RSA": 1,
+                "ENGINE_METHOD_DSA": 2,
+                "ENGINE_METHOD_DH": 4,
+                "ENGINE_METHOD_RAND": 8,
+                "ENGINE_METHOD_EC": 2048,
+                "ENGINE_METHOD_CIPHERS": 64,
+                "ENGINE_METHOD_DIGESTS": 128,
+                "ENGINE_METHOD_PKEY_METHS": 512,
+                "ENGINE_METHOD_PKEY_ASN1_METHS": 1024,
+                "ENGINE_METHOD_ALL": 65535,
+                "ENGINE_METHOD_NONE": 0,
+                "DH_CHECK_P_NOT_SAFE_PRIME": 2,
+                "DH_CHECK_P_NOT_PRIME": 1,
+                "DH_UNABLE_TO_CHECK_GENERATOR": 4,
+                "DH_NOT_SUITABLE_GENERATOR": 8,
+                "ALPN_ENABLED": 1,
+                "RSA_PKCS1_PADDING": 1,
+                "RSA_SSLV23_PADDING": 2,
+                "RSA_NO_PADDING": 3,
+                "RSA_PKCS1_OAEP_PADDING": 4,
+                "RSA_X931_PADDING": 5,
+                "RSA_PKCS1_PSS_PADDING": 6,
+                "RSA_PSS_SALTLEN_DIGEST": -1,
+                "RSA_PSS_SALTLEN_MAX_SIGN": -2,
+                "RSA_PSS_SALTLEN_AUTO": -2,
+                "defaultCoreCipherList": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA384:DHE-RSA-AES256-SHA384:ECDHE-RSA-AES256-SHA256:DHE-RSA-AES256-SHA256:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!RC4:!MD5:!PSK:!SRP:!CAMELLIA",
+                "TLS1_VERSION": 769,
+                "TLS1_1_VERSION": 770,
+                "TLS1_2_VERSION": 771,
+                "TLS1_3_VERSION": 772,
+                "POINT_CONVERSION_COMPRESSED": 2,
+                "POINT_CONVERSION_UNCOMPRESSED": 4,
+                "POINT_CONVERSION_HYBRID": 6
+              }
+            }
+          },
+          "abort": {},
+          "uuid": {},
+          "ARN": {},
+          "defaultProfile": "default",
+          "configOptInEnv": "AWS_SDK_LOAD_CONFIG",
+          "sharedCredentialsFileEnv": "AWS_SHARED_CREDENTIALS_FILE",
+          "sharedConfigFileEnv": "AWS_CONFIG_FILE",
+          "imdsDisabledEnv": "AWS_EC2_METADATA_DISABLED",
+          "domain": {
+            "_stack": [],
+            "active": null
+          },
+          "url": {},
+          "querystring": {},
+          "realClock": {},
+          "clientSideMonitoring": {},
+          "iniLoader": {
+            "resolvedProfiles": {}
+          }
+        },
+        "VERSION": "2.817.0",
+        "Signers": {},
+        "Protocol": {
+          "Json": {},
+          "Query": {},
+          "Rest": {},
+          "RestJson": {},
+          "RestXml": {}
+        },
+        "XML": {},
+        "JSON": {},
+        "Model": {},
+        "config": {
+          "credentials": {
+            "expired": false,
+            "expireTime": null,
+            "refreshCallbacks": [],
+            "accessKeyId": "AKIAWUAWNHV2TCT3DXWL",
+            "profile": "default",
+            "disableAssumeRole": true,
+            "preferStaticCredentials": false,
+            "tokenCodeFn": null,
+            "httpOptions": null
+          },
+          "credentialProvider": {
+            "providers": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "resolveCallbacks": []
+          },
+          "logger": null,
+          "apiVersions": {},
+          "apiVersion": null,
+          "httpOptions": {
+            "timeout": 120000
+          },
+          "maxRedirects": 10,
+          "paramValidation": true,
+          "sslEnabled": true,
+          "s3ForcePathStyle": false,
+          "s3BucketEndpoint": false,
+          "s3DisableBodySigning": true,
+          "s3UsEast1RegionalEndpoint": "legacy",
+          "computeChecksums": true,
+          "convertResponseTypes": true,
+          "correctClockSkew": false,
+          "customUserAgent": null,
+          "dynamoDbCrc32": true,
+          "systemClockOffset": 0,
+          "signatureVersion": null,
+          "signatureCache": true,
+          "retryDelayOptions": {},
+          "useAccelerateEndpoint": false,
+          "clientSideMonitoring": false,
+          "endpointCacheSize": 1000,
+          "hostPrefixEnabled": true,
+          "stsRegionalEndpoints": "legacy"
+        },
+        "EventListeners": {
+          "Core": {
+            "_events": {
+              "validate": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "afterBuild": [
+                null,
+                null,
+                null
+              ],
+              "restart": [
+                null
+              ],
+              "sign": [
+                null,
+                null
+              ],
+              "validateResponse": [
+                null
+              ],
+              "send": [
+                null
+              ],
+              "httpHeaders": [
+                null
+              ],
+              "httpData": [
+                null
+              ],
+              "httpDone": [
+                null
+              ],
+              "retry": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "afterRetry": [
+                null
+              ]
+            }
+          },
+          "CorePost": {
+            "_events": {
+              "extractData": [
+                null
+              ],
+              "extractError": [
+                null
+              ],
+              "httpError": [
+                null
+              ]
+            }
+          },
+          "Logger": {
+            "_events": {
+              "complete": [
+                null
+              ]
+            }
+          },
+          "Json": {
+            "_events": {
+              "build": [
+                null
+              ],
+              "extractData": [
+                null
+              ],
+              "extractError": [
+                null
+              ]
+            }
+          },
+          "Rest": {
+            "_events": {
+              "build": [
+                null
+              ],
+              "extractData": [
+                null
+              ],
+              "extractError": [
+                null
+              ]
+            }
+          },
+          "RestJson": {
+            "_events": {
+              "build": [
+                null
+              ],
+              "extractData": [
+                null
+              ],
+              "extractError": [
+                null
+              ]
+            }
+          },
+          "RestXml": {
+            "_events": {
+              "build": [
+                null
+              ],
+              "extractData": [
+                null
+              ],
+              "extractError": [
+                null
+              ]
+            }
+          },
+          "Query": {
+            "_events": {
+              "build": [
+                null
+              ],
+              "extractData": [
+                null
+              ],
+              "extractError": [
+                null
+              ]
+            }
+          }
+        },
+        "events": {
+          "_events": {}
+        },
+        "endpointCache": {
+          "maxSize": 1000,
+          "cache": {
+            "nodeMap": {},
+            "size": 0,
+            "sizeLimit": 1000
+          }
+        }
+      },
+      "requestCache": {},
+      "requestQueue": {
+        "options": {},
+        "pendingPromises": 0,
+        "maxPendingPromises": 2,
+        "maxQueuedPromises": null,
+        "queue": []
+      },
+      "cachedCredentials": null
+    }
+  },
+  "version": "1.83.2",
+  "yamlParser": {
+    "serverless": "[circular ref]"
+  },
+  "utils": {
+    "serverless": "[circular ref]"
+  },
+  "service": {
+    "serverless": "[circular ref]",
+    "service": "slsplugindev",
+    "serviceObject": {
+      "name": "slsplugindev"
+    },
+    "provider": {
+      "stage": "dev",
+      "variableSyntax": "\\${([^{}]+?)}",
+      "name": "aws",
+      "runtime": "dotnetcore3.1",
+      "region": "us-west-2",
+      "versionFunctions": true,
+      "compiledCloudFormationTemplate": {
+        "AWSTemplateFormatVersion": "2010-09-09",
+        "Description": "The AWS CloudFormation template for this Serverless application",
+        "Resources": {
+          "ServerlessDeploymentBucket": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+              "BucketEncryption": {
+                "ServerSideEncryptionConfiguration": [
+                  {
+                    "ServerSideEncryptionByDefault": {
+                      "SSEAlgorithm": "AES256"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "ServerlessDeploymentBucketPolicy": {
+            "Type": "AWS::S3::BucketPolicy",
+            "Properties": {
+              "Bucket": {
+                "Ref": "ServerlessDeploymentBucket"
+              },
+              "PolicyDocument": {
+                "Statement": [
+                  {
+                    "Action": "s3:*",
+                    "Effect": "Deny",
+                    "Principal": "*",
+                    "Resource": [
+                      {
+                        "Fn::Join": [
+                          "",
+                          [
+                            "arn:",
+                            {
+                              "Ref": "AWS::Partition"
+                            },
+                            ":s3:::",
+                            {
+                              "Ref": "ServerlessDeploymentBucket"
+                            },
+                            "/*"
+                          ]
+                        ]
+                      }
+                    ],
+                    "Condition": {
+                      "Bool": {
+                        "aws:SecureTransport": false
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "HelloLogGroup": {
+            "Type": "AWS::Logs::LogGroup",
+            "Properties": {
+              "LogGroupName": "/aws/lambda/slsplugindev-dev-hello"
+            }
+          },
+          "IamRoleLambdaExecution": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+              "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                  {
+                    "Effect": "Allow",
+                    "Principal": {
+                      "Service": [
+                        "lambda.amazonaws.com"
+                      ]
+                    },
+                    "Action": [
+                      "sts:AssumeRole"
+                    ]
+                  }
+                ]
+              },
+              "Policies": [
+                {
+                  "PolicyName": {
+                    "Fn::Join": [
+                      "-",
+                      [
+                        "slsplugindev",
+                        "dev",
+                        "lambda"
+                      ]
+                    ]
+                  },
+                  "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                      {
+                        "Effect": "Allow",
+                        "Action": [
+                          "logs:CreateLogStream",
+                          "logs:CreateLogGroup"
+                        ],
+                        "Resource": [
+                          {
+                            "Fn::Sub": "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/slsplugindev-dev*:*"
+                          }
+                        ]
+                      },
+                      {
+                        "Effect": "Allow",
+                        "Action": [
+                          "logs:PutLogEvents"
+                        ],
+                        "Resource": [
+                          {
+                            "Fn::Sub": "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/slsplugindev-dev*:*:*"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "Path": "/",
+              "RoleName": {
+                "Fn::Join": [
+                  "-",
+                  [
+                    "slsplugindev",
+                    "dev",
+                    {
+                      "Ref": "AWS::Region"
+                    },
+                    "lambdaRole"
+                  ]
+                ]
+              }
+            }
+          },
+          "HelloLambdaFunction": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+              "Code": {
+                "S3Bucket": {
+                  "Ref": "ServerlessDeploymentBucket"
+                },
+                "S3Key": "serverless/slsplugindev/dev/1609020900946-2020-12-26T22:15:00.946Z/hello.zip"
+              },
+              "FunctionName": "slsplugindev-dev-hello",
+              "Handler": "CsharpHandlers::AwsDotnetCsharp.Handler::Hello",
+              "MemorySize": 1024,
+              "Role": {
+                "Fn::GetAtt": [
+                  "IamRoleLambdaExecution",
+                  "Arn"
+                ]
+              },
+              "Runtime": "dotnetcore3.1",
+              "Timeout": 6,
+              "Environment": {
+                "Variables": {
+                  "variable2": "value2"
+                }
+              }
+            },
+            "DependsOn": [
+              "HelloLogGroup"
+            ]
+          },
+          "HelloLambdaVersionwgNkP2ZgUQuqtDzyIKgFNRt1eltERs26cU7mPtA8": {
+            "Type": "AWS::Lambda::Version",
+            "DeletionPolicy": "Retain",
+            "Properties": {
+              "FunctionName": {
+                "Ref": "HelloLambdaFunction"
+              },
+              "CodeSha256": "2/uYUfLEPKSr7lwxzlLcOmnt6fyakm+V4ykNOtU4UiA="
+            }
+          },
+          "ApiGatewayRestApi": {
+            "Type": "AWS::ApiGateway::RestApi",
+            "Properties": {
+              "Name": "dev-slsplugindev",
+              "EndpointConfiguration": {
+                "Types": [
+                  "EDGE"
+                ]
+              },
+              "Policy": ""
+            }
+          },
+          "ApiGatewayResourceHello": {
+            "Type": "AWS::ApiGateway::Resource",
+            "Properties": {
+              "ParentId": {
+                "Fn::GetAtt": [
+                  "ApiGatewayRestApi",
+                  "RootResourceId"
+                ]
+              },
+              "PathPart": "hello",
+              "RestApiId": {
+                "Ref": "ApiGatewayRestApi"
+              }
+            }
+          },
+          "ApiGatewayMethodHelloGet": {
+            "Type": "AWS::ApiGateway::Method",
+            "Properties": {
+              "HttpMethod": "GET",
+              "RequestParameters": {},
+              "ResourceId": {
+                "Ref": "ApiGatewayResourceHello"
+              },
+              "RestApiId": {
+                "Ref": "ApiGatewayRestApi"
+              },
+              "ApiKeyRequired": false,
+              "AuthorizationType": "NONE",
+              "Integration": {
+                "IntegrationHttpMethod": "POST",
+                "Type": "AWS_PROXY",
+                "Uri": {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Ref": "AWS::Partition"
+                      },
+                      ":apigateway:",
+                      {
+                        "Ref": "AWS::Region"
+                      },
+                      ":lambda:path/2015-03-31/functions/",
+                      {
+                        "Fn::GetAtt": [
+                          "HelloLambdaFunction",
+                          "Arn"
+                        ]
+                      },
+                      "/invocations"
+                    ]
+                  ]
+                }
+              },
+              "MethodResponses": []
+            }
+          },
+          "ApiGatewayDeployment1609020899882": {
+            "Type": "AWS::ApiGateway::Deployment",
+            "Properties": {
+              "RestApiId": {
+                "Ref": "ApiGatewayRestApi"
+              },
+              "StageName": "dev"
+            },
+            "DependsOn": [
+              "ApiGatewayMethodHelloGet"
+            ]
+          },
+          "HelloLambdaPermissionApiGateway": {
+            "Type": "AWS::Lambda::Permission",
+            "Properties": {
+              "FunctionName": {
+                "Fn::GetAtt": [
+                  "HelloLambdaFunction",
+                  "Arn"
+                ]
+              },
+              "Action": "lambda:InvokeFunction",
+              "Principal": "apigateway.amazonaws.com",
+              "SourceArn": {
+                "Fn::Join": [
+                  "",
+                  [
+                    "arn:",
+                    {
+                      "Ref": "AWS::Partition"
+                    },
+                    ":execute-api:",
+                    {
+                      "Ref": "AWS::Region"
+                    },
+                    ":",
+                    {
+                      "Ref": "AWS::AccountId"
+                    },
+                    ":",
+                    {
+                      "Ref": "ApiGatewayRestApi"
+                    },
+                    "/*/*"
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "Outputs": {
+          "ServerlessDeploymentBucketName": {
+            "Value": {
+              "Ref": "ServerlessDeploymentBucket"
+            }
+          },
+          "HelloLambdaFunctionQualifiedArn": {
+            "Description": "Current Lambda function version",
+            "Value": {
+              "Ref": "HelloLambdaVersionwgNkP2ZgUQuqtDzyIKgFNRt1eltERs26cU7mPtA8"
+            }
+          },
+          "ServiceEndpoint": {
+            "Description": "URL of the service endpoint",
+            "Value": {
+              "Fn::Join": [
+                "",
+                [
+                  "https://",
+                  {
+                    "Ref": "ApiGatewayRestApi"
+                  },
+                  ".execute-api.",
+                  {
+                    "Ref": "AWS::Region"
+                  },
+                  ".",
+                  {
+                    "Ref": "AWS::URLSuffix"
+                  },
+                  "/dev"
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "coreCloudFormationTemplate": {
+        "AWSTemplateFormatVersion": "2010-09-09",
+        "Description": "The AWS CloudFormation template for this Serverless application",
+        "Resources": {
+          "ServerlessDeploymentBucket": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+              "BucketEncryption": {
+                "ServerSideEncryptionConfiguration": [
+                  {
+                    "ServerSideEncryptionByDefault": {
+                      "SSEAlgorithm": "AES256"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "ServerlessDeploymentBucketPolicy": {
+            "Type": "AWS::S3::BucketPolicy",
+            "Properties": {
+              "Bucket": {
+                "Ref": "ServerlessDeploymentBucket"
+              },
+              "PolicyDocument": {
+                "Statement": [
+                  {
+                    "Action": "s3:*",
+                    "Effect": "Deny",
+                    "Principal": "*",
+                    "Resource": [
+                      {
+                        "Fn::Join": [
+                          "",
+                          [
+                            "arn:",
+                            {
+                              "Ref": "AWS::Partition"
+                            },
+                            ":s3:::",
+                            {
+                              "Ref": "ServerlessDeploymentBucket"
+                            },
+                            "/*"
+                          ]
+                        ]
+                      }
+                    ],
+                    "Condition": {
+                      "Bool": {
+                        "aws:SecureTransport": false
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Outputs": {
+          "ServerlessDeploymentBucketName": {
+            "Value": {
+              "Ref": "ServerlessDeploymentBucket"
+            }
+          }
+        }
+      },
+      "vpc": {}
+    },
+    "plugins": [
+      "myplugin"
+    ],
+    "pluginsData": {},
+    "functions": {
+      "hello": {
+        "handler": "CsharpHandlers::AwsDotnetCsharp.Handler::Hello",
+        "package": {
+          "artifact": "bin/Release/netcoreapp3.1/hello.zip"
+        },
+        "events": [
+          {
+            "http": {
+              "path": "hello",
+              "method": "get",
+              "integration": "AWS_PROXY"
+            }
+          }
+        ],
+        "environment": {
+          "variable2": "value2"
+        },
+        "name": "slsplugindev-dev-hello",
+        "memory": 1024,
+        "timeout": 6,
+        "runtime": "dotnetcore3.1",
+        "vpc": {},
+        "versionLogicalId": "HelloLambdaVersionwgNkP2ZgUQuqtDzyIKgFNRt1eltERs26cU7mPtA8"
+      }
+    },
+    "package": {
+      "individually": true,
+      "artifactDirectoryName": "serverless/slsplugindev/dev/1609020900946-2020-12-26T22:15:00.946Z"
+    },
+    "configValidationMode": "warn",
+    "serviceFilename": "serverless.yml",
+    "layers": {},
+    "initialServerlessConfig": {
+      "service": "slsplugindev",
+      "provider": {
+        "name": "aws",
+        "runtime": "dotnetcore3.1",
+        "region": "us-west-2"
+      },
+      "plugins": "[circular ref]",
+      "package": {
+        "individually": true,
+        "artifactDirectoryName": "serverless/slsplugindev/dev/1609020900946-2020-12-26T22:15:00.946Z"
+      },
+      "functions": "[circular ref]"
+    },
+    "isDashboardMonitoringPreconfigured": false
+  },
+  "variables": {
+    "serverless": "[circular ref]",
+    "service": "[circular ref]",
+    "tracker": {
+      "promiseList": [],
+      "promiseMap": {},
+      "startTime": 1609020900771,
+      "reported": false,
+      "interval": {
+        "_idleTimeout": -1,
+        "_idlePrev": null,
+        "_idleNext": null,
+        "_idleStart": 2056,
+        "_onTimeout": null,
+        "_repeat": 15000,
+        "_destroyed": true
+      }
+    },
+    "deep": [],
+    "deepRefSyntax": {},
+    "overwriteSyntax": {},
+    "fileRefSyntax": {},
+    "slsRefSyntax": {},
+    "envRefSyntax": {},
+    "optRefSyntax": {},
+    "selfRefSyntax": {},
+    "stringRefSyntax": {},
+    "boolRefSyntax": {},
+    "intRefSyntax": {},
+    "s3RefSyntax": {},
+    "cfRefSyntax": {},
+    "ssmRefSyntax": {},
+    "strToBoolRefSyntax": {},
+    "variableResolvers": [
+      {
+        "regex": "[circular ref]"
+      },
+      {
+        "regex": "[circular ref]"
+      },
+      {
+        "regex": "[circular ref]"
+      },
+      {
+        "regex": "[circular ref]"
+      },
+      {
+        "regex": "[circular ref]"
+      },
+      {
+        "regex": "[circular ref]",
+        "isDisabledAtPrepopulation": true,
+        "serviceName": "CloudFormation"
+      },
+      {
+        "regex": "[circular ref]",
+        "isDisabledAtPrepopulation": true,
+        "serviceName": "S3"
+      },
+      {
+        "regex": "[circular ref]"
+      },
+      {
+        "regex": "[circular ref]"
+      },
+      {
+        "regex": "[circular ref]"
+      },
+      {
+        "regex": "[circular ref]",
+        "isDisabledAtPrepopulation": true,
+        "serviceName": "SSM"
+      },
+      {
+        "regex": "[circular ref]"
+      },
+      {
+        "regex": "[circular ref]"
+      },
+      {
+        "regex": {},
+        "isDisabledAtPrepopulation": true,
+        "serviceName": "Serverless Parameters"
+      },
+      {
+        "regex": {},
+        "isDisabledAtPrepopulation": true,
+        "serviceName": "Serverless Secrets"
+      },
+      {
+        "regex": {},
+        "isDisabledAtPrepopulation": true,
+        "serviceName": "Serverless Outputs"
+      },
+      {
+        "regex": {},
+        "isDisabledAtPrepopulation": true,
+        "serviceName": "Serverless Outputs"
+      }
+    ],
+    "options": "[circular ref]",
+    "variableSyntax": {}
+  },
+  "pluginManager": {
+    "serverless": "[circular ref]",
+    "serverlessConfigFile": {
+      "service": "slsplugindev",
+      "provider": {
+        "name": "aws",
+        "runtime": "dotnetcore3.1",
+        "region": "us-west-2"
+      },
+      "plugins": [
+        "myplugin"
+      ],
+      "package": "[circular ref]",
+      "functions": {
+        "hello": {
+          "handler": "CsharpHandlers::AwsDotnetCsharp.Handler::Hello",
+          "package": {
+            "artifact": "bin/Release/netcoreapp3.1/hello.zip"
+          },
+          "events": [
+            {
+              "http": {
+                "path": "hello",
+                "method": "get",
+                "integration": "AWS_PROXY"
+              }
+            }
+          ],
+          "environment": {
+            "variable2": "value2"
+          },
+          "name": "slsplugindev-dev-hello",
+          "memory": 1024,
+          "timeout": 6,
+          "runtime": "dotnetcore3.1",
+          "vpc": {},
+          "versionLogicalId": "HelloLambdaVersionwgNkP2ZgUQuqtDzyIKgFNRt1eltERs26cU7mPtA8"
+        }
+      }
+    },
+    "cliOptions": "[circular ref]",
+    "cliCommands": [
+      "deploy"
+    ],
+    "pluginIndependentCommands": {},
+    "plugins": [
+      {
+        "serverless": "[circular ref]",
+        "commands": {
+          "interactiveCli": {
+            "isHidden": true,
+            "options": {
+              "app": {
+                "usage": "Dashboard app"
+              },
+              "org": {
+                "usage": "Dashboard org"
+              }
+            },
+            "lifecycleEvents": [
+              "initializeService",
+              "setupAws",
+              "tabCompletion",
+              "end"
+            ]
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "commands": {
+          "config": {
+            "usage": "Configure Serverless",
+            "configDependent": false,
+            "commands": {
+              "credentials": {
+                "usage": "Configures a new provider profile for the Serverless Framework",
+                "lifecycleEvents": [
+                  "config"
+                ],
+                "validProviders": {},
+                "options": {
+                  "provider": {
+                    "usage": "Name of the provider. Supported providers: \"aws\"",
+                    "required": true,
+                    "shortcut": "p"
+                  }
+                }
+              },
+              "tabcompletion": {
+                "usage": "Configure command line <tab> completion",
+                "commands": {
+                  "install": {
+                    "usage": "Install a <tab> completion for chosen shell",
+                    "lifecycleEvents": [
+                      "install"
+                    ],
+                    "options": {
+                      "shell": {
+                        "usage": "Shell for which <tab> completion should be installed. Supported options: bash (default), zsh, fish ",
+                        "shortcut": "s"
+                      },
+                      "location": {
+                        "usage": "Custom location for shell config",
+                        "shortcut": "l"
+                      }
+                    }
+                  },
+                  "uninstall": {
+                    "usage": "Uninstall a <tab> completion for chosen shell",
+                    "lifecycleEvents": [
+                      "uninstall"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "commands": {
+          "create": {
+            "usage": "Create new Serverless service",
+            "lifecycleEvents": [
+              "create"
+            ],
+            "options": {
+              "template": {
+                "usage": "Template for the service. Available templates: \n                                             \"aws-clojure-gradle\", \"aws-clojurescript-gradle\", \"aws-nodejs\", \"aws-nodejs-typescript\", \"aws-alexa-typescript\", \"aws-nodejs-ecma-script\", \"aws-python\", \"aws-python3\"\n                                             \"aws-groovy-gradle\", \"aws-java-maven\", \"aws-java-gradle\", \"aws-kotlin-jvm-maven\", \"aws-kotlin-jvm-gradle\", \"aws-kotlin-jvm-gradle-kts\", \"aws-kotlin-nodejs-gradle\", \"aws-scala-sbt\"\n                                             \"aws-csharp\", \"aws-fsharp\", \"aws-go\", \"aws-go-dep\", \"aws-go-mod\", \"aws-ruby\", \"aws-provided\"\n                                             \"tencent-go\", \"tencent-nodejs\", \"tencent-python\", \"tencent-php\"\n                                             \"azure-csharp\", \"azure-nodejs\", \"azure-nodejs-typescript\", \"azure-python\"\n                                             \"cloudflare-workers\", \"cloudflare-workers-enterprise\", \"cloudflare-workers-rust\"\n                                             \"fn-nodejs\", \"fn-go\"\n                                             \"google-nodejs\", \"google-python\", \"google-go\"\n                                             \"kubeless-python\", \"kubeless-nodejs\"\n                                             \"knative-docker\"\n                                             \"openwhisk-java-maven\", \"openwhisk-nodejs\", \"openwhisk-php\", \"openwhisk-python\", \"openwhisk-ruby\", \"openwhisk-swift\"\n                                             \"spotinst-nodejs\", \"spotinst-python\", \"spotinst-ruby\", \"spotinst-java8\"\n                                             \"twilio-nodejs\"\n                                             \"aliyun-nodejs\"\n                                             \"plugin\"\n                                             \"hello-world\"",
+                "shortcut": "t"
+              },
+              "template-url": {
+                "usage": "Template URL for the service. Supports: GitHub, BitBucket",
+                "shortcut": "u"
+              },
+              "template-path": {
+                "usage": "Template local path for the service."
+              },
+              "path": {
+                "usage": "The path where the service should be created (e.g. --path my-service)",
+                "shortcut": "p"
+              },
+              "name": {
+                "usage": "Name for the service. Overwrites the default name of the created service.",
+                "shortcut": "n"
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "commands": {
+          "install": {
+            "usage": "Install a Serverless service from GitHub or a plugin from the Serverless registry",
+            "lifecycleEvents": [
+              "install"
+            ],
+            "options": {
+              "url": {
+                "usage": "URL of the Serverless service on GitHub",
+                "required": true,
+                "shortcut": "u"
+              },
+              "name": {
+                "usage": "Name for the service",
+                "shortcut": "n"
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "servicePath": "/home/moshea/repos/slsplugindev",
+        "packagePath": "/home/moshea/repos/slsplugindev/.serverless",
+        "defaultExcludes": [
+          ".git/**",
+          ".gitignore",
+          ".DS_Store",
+          "npm-debug.log",
+          "yarn-*.log",
+          ".serverless/**",
+          ".serverless_plugins/**"
+        ],
+        "commands": {
+          "package": {
+            "usage": "Packages a Serverless service",
+            "configDependent": true,
+            "lifecycleEvents": [
+              "cleanup",
+              "initialize",
+              "setupProviderConfiguration",
+              "createDeploymentArtifacts",
+              "compileLayers",
+              "compileFunctions",
+              "compileEvents",
+              "finalize"
+            ],
+            "options": {
+              "stage": {
+                "usage": "Stage of the service",
+                "shortcut": "s"
+              },
+              "region": {
+                "usage": "Region of the service",
+                "shortcut": "r"
+              },
+              "package": {
+                "usage": "Output path for the package",
+                "shortcut": "p"
+              },
+              "app": {
+                "usage": "Dashboard app"
+              },
+              "org": {
+                "usage": "Dashboard org"
+              }
+            },
+            "commands": {
+              "function": {
+                "type": "entrypoint",
+                "lifecycleEvents": [
+                  "package"
+                ]
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "commands": {
+          "deploy": {
+            "usage": "Deploy a Serverless service",
+            "configDependent": true,
+            "lifecycleEvents": [
+              "deprecated#cleanup->package:cleanup",
+              "deprecated#initialize->package:initialize",
+              "deprecated#setupProviderConfiguration->package:setupProviderConfiguration",
+              "deprecated#createDeploymentArtifacts->package:createDeploymentArtifacts",
+              "deprecated#compileFunctions->package:compileFunctions",
+              "deprecated#compileEvents->package:compileEvents",
+              "deploy",
+              "finalize"
+            ],
+            "options": {
+              "conceal": {
+                "usage": "Hide secrets from the output (e.g. API Gateway key values)"
+              },
+              "stage": {
+                "usage": "Stage of the service",
+                "shortcut": "s"
+              },
+              "region": {
+                "usage": "Region of the service",
+                "shortcut": "r"
+              },
+              "package": {
+                "usage": "Path of the deployment package",
+                "shortcut": "p"
+              },
+              "verbose": {
+                "usage": "Show all stack events during deployment",
+                "shortcut": "v"
+              },
+              "force": {
+                "usage": "Forces a deployment to take place"
+              },
+              "function": {
+                "usage": "Function name. Deploys a single function (see 'deploy function')",
+                "shortcut": "f"
+              },
+              "aws-s3-accelerate": {
+                "usage": "Enables S3 Transfer Acceleration making uploading artifacts much faster."
+              },
+              "app": {
+                "usage": "Dashboard app"
+              },
+              "org": {
+                "usage": "Dashboard org"
+              }
+            },
+            "commands": {
+              "function": {
+                "usage": "Deploy a single function from the service",
+                "lifecycleEvents": [
+                  "initialize",
+                  "packageFunction",
+                  "deploy"
+                ],
+                "options": {
+                  "function": {
+                    "usage": "Name of the function",
+                    "shortcut": "f",
+                    "required": true
+                  },
+                  "stage": {
+                    "usage": "Stage of the function",
+                    "shortcut": "s"
+                  },
+                  "region": {
+                    "usage": "Region of the function",
+                    "shortcut": "r"
+                  },
+                  "force": {
+                    "usage": "Forces a deployment to take place"
+                  },
+                  "update-config": {
+                    "usage": "Updates function configuration, e.g. Timeout or Memory Size without deploying code",
+                    "shortcut": "u"
+                  }
+                }
+              },
+              "list": {
+                "usage": "List deployed version of your Serverless Service",
+                "lifecycleEvents": [
+                  "log"
+                ],
+                "commands": {
+                  "functions": {
+                    "usage": "List all the deployed functions and their versions",
+                    "lifecycleEvents": [
+                      "log"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "hooks": {},
+        "deferredBackendNotificationRequest": {
+          "isFulfilled": false,
+          "isRejected": false
+        }
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "commands": {
+          "invoke": {
+            "usage": "Invoke a deployed function",
+            "configDependent": true,
+            "lifecycleEvents": [
+              "invoke"
+            ],
+            "options": {
+              "function": {
+                "usage": "The function name",
+                "required": true,
+                "shortcut": "f"
+              },
+              "stage": {
+                "usage": "Stage of the service",
+                "shortcut": "s"
+              },
+              "region": {
+                "usage": "Region of the service",
+                "shortcut": "r"
+              },
+              "qualifier": {
+                "usage": "Version number or alias to invoke",
+                "shortcut": "q"
+              },
+              "path": {
+                "usage": "Path to JSON or YAML file holding input data",
+                "shortcut": "p"
+              },
+              "type": {
+                "usage": "Type of invocation",
+                "shortcut": "t"
+              },
+              "log": {
+                "usage": "Trigger logging data output",
+                "shortcut": "l"
+              },
+              "data": {
+                "usage": "Input data",
+                "shortcut": "d"
+              },
+              "raw": {
+                "usage": "Flag to pass input data as a raw string"
+              },
+              "app": {
+                "usage": "Dashboard app"
+              },
+              "org": {
+                "usage": "Dashboard org"
+              }
+            },
+            "commands": {
+              "local": {
+                "usage": "Invoke function locally",
+                "lifecycleEvents": [
+                  "loadEnvVars",
+                  "invoke"
+                ],
+                "options": {
+                  "function": {
+                    "usage": "Name of the function",
+                    "shortcut": "f",
+                    "required": true
+                  },
+                  "path": {
+                    "usage": "Path to JSON or YAML file holding input data",
+                    "shortcut": "p"
+                  },
+                  "data": {
+                    "usage": "input data",
+                    "shortcut": "d"
+                  },
+                  "raw": {
+                    "usage": "Flag to pass input data as a raw string"
+                  },
+                  "context": {
+                    "usage": "Context of the service",
+                    "shortcut": "c"
+                  },
+                  "contextPath": {
+                    "usage": "Path to JSON or YAML file holding context data",
+                    "shortcut": "x"
+                  },
+                  "env": {
+                    "usage": "Override environment variables. e.g. --env VAR1=val1 --env VAR2=val2",
+                    "shortcut": "e"
+                  },
+                  "docker": {
+                    "usage": "Flag to turn on docker use for node/python/ruby/java"
+                  },
+                  "docker-arg": {
+                    "usage": "Arguments to docker run command. e.g. --docker-arg \"-p 9229:9229\""
+                  }
+                }
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "commands": {
+          "info": {
+            "usage": "Display information about the service",
+            "configDependent": true,
+            "lifecycleEvents": [
+              "info"
+            ],
+            "options": {
+              "stage": {
+                "usage": "Stage of the service",
+                "shortcut": "s"
+              },
+              "region": {
+                "usage": "Region of the service",
+                "shortcut": "r"
+              },
+              "verbose": {
+                "usage": "Display Stack output",
+                "shortcut": "v"
+              },
+              "app": {
+                "usage": "Dashboard app"
+              },
+              "org": {
+                "usage": "Dashboard org"
+              }
+            }
+          }
+        }
+      },
+      {
+        "serverless": "[circular ref]",
+        "commands": {
+          "logs": {
+            "usage": "Output the logs of a deployed function",
+            "configDependent": true,
+            "lifecycleEvents": [
+              "logs"
+            ],
+            "options": {
+              "function": {
+                "usage": "The function name",
+                "required": true,
+                "shortcut": "f"
+              },
+              "stage": {
+                "usage": "Stage of the service",
+                "shortcut": "s"
+              },
+              "region": {
+                "usage": "Region of the service",
+                "shortcut": "r"
+              },
+              "tail": {
+                "usage": "Tail the log output",
+                "shortcut": "t"
+              },
+              "startTime": {
+                "usage": "Logs before this time will not be displayed. Default: `10m` (last 10 minutes logs only)"
+              },
+              "filter": {
+                "usage": "A filter pattern"
+              },
+              "interval": {
+                "usage": "Tail polling interval in milliseconds. Default: `1000`",
+                "shortcut": "i"
+              },
+              "app": {
+                "usage": "Dashboard app"
+              },
+              "org": {
+                "usage": "Dashboard org"
+              }
+            }
+          }
+        }
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "commands": {
+          "metrics": {
+            "usage": "Show metrics for a specific function",
+            "configDependent": true,
+            "lifecycleEvents": [
+              "metrics"
+            ],
+            "options": {
+              "function": {
+                "usage": "The function name",
+                "shortcut": "f"
+              },
+              "stage": {
+                "usage": "Stage of the service",
+                "shortcut": "s"
+              },
+              "region": {
+                "usage": "Region of the service",
+                "shortcut": "r"
+              },
+              "startTime": {
+                "usage": "Start time for the metrics retrieval (e.g. 1970-01-01)"
+              },
+              "endTime": {
+                "usage": "End time for the metrics retrieval (e.g. 1970-01-01)"
+              },
+              "app": {
+                "usage": "Dashboard app"
+              },
+              "org": {
+                "usage": "Dashboard org"
+              }
+            }
+          }
+        }
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "cache": {},
+        "commands": {
+          "print": {
+            "usage": "Print your compiled and resolved config file",
+            "configDependent": true,
+            "lifecycleEvents": [
+              "print"
+            ],
+            "options": {
+              "format": {
+                "usage": "Print configuration in given format (\"yaml\", \"json\", \"text\"). Default: yaml"
+              },
+              "path": {
+                "usage": "Optional period-separated path to print a sub-value (eg: \"provider.name\")"
+              },
+              "transform": {
+                "usage": "Optional transform-function to apply to the value (\"keys\")"
+              },
+              "app": {
+                "usage": "Dashboard app"
+              },
+              "org": {
+                "usage": "Dashboard org"
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "commands": {
+          "remove": {
+            "usage": "Remove Serverless service and all resources",
+            "configDependent": true,
+            "lifecycleEvents": [
+              "remove"
+            ],
+            "options": {
+              "stage": {
+                "usage": "Stage of the service",
+                "shortcut": "s"
+              },
+              "region": {
+                "usage": "Region of the service",
+                "shortcut": "r"
+              },
+              "verbose": {
+                "usage": "Show all stack events during deployment",
+                "shortcut": "v"
+              },
+              "app": {
+                "usage": "Dashboard app"
+              },
+              "org": {
+                "usage": "Dashboard org"
+              }
+            }
+          }
+        }
+      },
+      {
+        "serverless": "[circular ref]",
+        "commands": {
+          "rollback": {
+            "usage": "Rollback the Serverless service to a specific deployment",
+            "configDependent": true,
+            "lifecycleEvents": [
+              "initialize",
+              "rollback"
+            ],
+            "options": {
+              "timestamp": {
+                "usage": "Timestamp of the deployment (list deployments with `serverless deploy list`)",
+                "shortcut": "t",
+                "required": false
+              },
+              "verbose": {
+                "usage": "Show all stack events during deployment",
+                "shortcut": "v"
+              },
+              "app": {
+                "usage": "Dashboard app"
+              },
+              "org": {
+                "usage": "Dashboard org"
+              }
+            },
+            "commands": {
+              "function": {
+                "usage": "Rollback the function to the previous version",
+                "lifecycleEvents": [
+                  "rollback"
+                ],
+                "options": {
+                  "function": {
+                    "usage": "Name of the function",
+                    "shortcut": "f",
+                    "required": true
+                  },
+                  "function-version": {
+                    "usage": "Version of the function",
+                    "required": true
+                  },
+                  "stage": {
+                    "usage": "Stage of the function",
+                    "shortcut": "s"
+                  },
+                  "region": {
+                    "usage": "Region of the function",
+                    "shortcut": "r"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "commands": {
+          "slstats": {
+            "usage": "Enable or disable stats",
+            "configDependent": true,
+            "lifecycleEvents": [
+              "slstats"
+            ],
+            "options": {
+              "enable": {
+                "usage": "Enable stats (\"--enable\")",
+                "shortcut": "e"
+              },
+              "disable": {
+                "usage": "Disable stats (\"--disable\")",
+                "shortcut": "d"
+              },
+              "app": {
+                "usage": "Dashboard app"
+              },
+              "org": {
+                "usage": "Dashboard org"
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "commands": {
+          "plugin": {
+            "usage": "Plugin management for Serverless",
+            "lifecycleEvents": [
+              "plugin"
+            ]
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "commands": {
+          "plugin": {
+            "commands": {
+              "install": {
+                "usage": "Install and add a plugin to your service",
+                "lifecycleEvents": [
+                  "install"
+                ],
+                "options": {
+                  "name": {
+                    "usage": "The plugin name",
+                    "required": true,
+                    "shortcut": "n"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "commands": {
+          "plugin": {
+            "commands": {
+              "uninstall": {
+                "usage": "Uninstall and remove a plugin from your service",
+                "lifecycleEvents": [
+                  "uninstall"
+                ],
+                "options": {
+                  "name": {
+                    "usage": "The plugin name",
+                    "required": true,
+                    "shortcut": "n"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "commands": {
+          "plugin": {
+            "commands": {
+              "list": {
+                "usage": "Lists all available plugins",
+                "lifecycleEvents": [
+                  "list"
+                ]
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "commands": {
+          "plugin": {
+            "commands": {
+              "search": {
+                "usage": "Search for plugins",
+                "lifecycleEvents": [
+                  "search"
+                ],
+                "options": {
+                  "query": {
+                    "usage": "Search query",
+                    "required": true,
+                    "shortcut": "q"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "commands": {
+          "config": {
+            "commands": {
+              "credentials": {
+                "lifecycleEvents": [
+                  "config"
+                ],
+                "options": {
+                  "key": {
+                    "usage": "Access key for the provider",
+                    "shortcut": "k",
+                    "required": true
+                  },
+                  "secret": {
+                    "usage": "Secret key for the provider",
+                    "shortcut": "s",
+                    "required": true
+                  },
+                  "profile": {
+                    "usage": "Name of the profile you wish to create. Defaults to \"default\"",
+                    "shortcut": "n"
+                  },
+                  "overwrite": {
+                    "usage": "Overwrite the existing profile configuration in the credentials file",
+                    "shortcut": "o"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      "[circular ref]",
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "commands": {
+          "aws": {
+            "type": "entrypoint",
+            "commands": {
+              "common": {
+                "commands": {
+                  "validate": {
+                    "lifecycleEvents": [
+                      "validate"
+                    ]
+                  },
+                  "cleanupTempDir": {
+                    "lifecycleEvents": [
+                      "cleanup"
+                    ]
+                  },
+                  "moveArtifactsToPackage": {
+                    "lifecycleEvents": [
+                      "move"
+                    ]
+                  },
+                  "moveArtifactsToTemp": {
+                    "lifecycleEvents": [
+                      "move"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "servicePath": "/home/moshea/repos/slsplugindev",
+        "packagePath": "/home/moshea/repos/slsplugindev/.serverless",
+        "provider": "[circular ref]",
+        "commands": {
+          "aws": {
+            "type": "entrypoint",
+            "commands": {
+              "package": {
+                "commands": {
+                  "finalize": {
+                    "lifecycleEvents": [
+                      "mergeCustomProviderResources",
+                      "saveServiceState"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "servicePath": "/home/moshea/repos/slsplugindev",
+        "packagePath": "/home/moshea/repos/slsplugindev/.serverless",
+        "commands": {
+          "aws": {
+            "type": "entrypoint",
+            "commands": {
+              "deploy": {
+                "commands": {
+                  "deploy": {
+                    "lifecycleEvents": [
+                      "createStack",
+                      "checkForChanges",
+                      "uploadArtifacts",
+                      "validateTemplate",
+                      "updateStack"
+                    ]
+                  },
+                  "finalize": {
+                    "lifecycleEvents": [
+                      "cleanup"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "provider": "[circular ref]",
+        "options": "[circular ref]",
+        "commands": {
+          "aws": {
+            "type": "entrypoint",
+            "commands": {
+              "info": {
+                "lifecycleEvents": [
+                  "validate",
+                  "gatherData",
+                  "displayServiceInfo",
+                  "displayApiKeys",
+                  "displayEndpoints",
+                  "displayFunctions",
+                  "displayLayers",
+                  "displayStackOutputs"
+                ]
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "commands": {
+          "rollback": {
+            "commands": {
+              "function": {
+                "usage": "Rollback the function to a specific version",
+                "lifecycleEvents": [
+                  "rollback"
+                ],
+                "options": {
+                  "function": {
+                    "usage": "Name of the function",
+                    "shortcut": "f",
+                    "required": true
+                  },
+                  "function-version": {
+                    "usage": "Version of the function",
+                    "required": true
+                  },
+                  "stage": {
+                    "usage": "Stage of the function",
+                    "shortcut": "s"
+                  },
+                  "region": {
+                    "usage": "Region of the function",
+                    "shortcut": "r"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "packagePath": "/home/moshea/repos/slsplugindev/.serverless",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "packagePath": "/home/moshea/repos/slsplugindev/.serverless",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "allowedBucketProperties": {},
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "apiGatewayMethodLogicalIds": [
+          "ApiGatewayMethodHelloGet"
+        ],
+        "DEFAULT_JSON_REQUEST_TEMPLATE": "\n    #set( $body = $input.json(\"$\") )\n\n    \n  #define( $loop )\n    {\n    #foreach($key in $map.keySet())\n        #set( $k = $util.escapeJavaScript($key) )\n        #set( $v = $util.escapeJavaScript($map.get($key)).replaceAll(\"\\\\'\", \"'\") )\n        \"$k\":\n          \"$v\"\n          #if( $foreach.hasNext ) , #end\n    #end\n    }\n  #end\n\n  {\n    \"body\": $body,\n    \"method\": \"$context.httpMethod\",\n    \"principalId\": \"$context.authorizer.principalId\",\n    \"stage\": \"$context.stage\",\n\n    \"cognitoPoolClaims\" : {\n       extraCognitoPoolClaims\n       \"sub\": \"$context.authorizer.claims.sub\"\n    },\n\n    #set( $map = $context.authorizer )\n    \"enhancedAuthContext\": $loop,\n\n    #set( $map = $input.params().header )\n    \"headers\": $loop,\n\n    #set( $map = $input.params().querystring )\n    \"query\": $loop,\n\n    #set( $map = $input.params().path )\n    \"path\": $loop,\n\n    #set( $map = $context.identity )\n    \"identity\": $loop,\n\n    #set( $map = $stageVariables )\n    \"stageVariables\": $loop,\n\n    \"requestPath\": \"$context.resourcePath\"\n  }\n\n  ",
+        "DEFAULT_FORM_URL_ENCODED_REQUEST_TEMPLATE": "\n    #define( $body )\n      {\n      #foreach( $token in $input.path('$').split('&') )\n        #set( $keyVal = $token.split('=') )\n        #set( $keyValSize = $keyVal.size() )\n        #if( $keyValSize >= 1 )\n          #set( $key = $util.escapeJavaScript($util.urlDecode($keyVal[0])) )\n          #if( $keyValSize >= 2 )\n            #set($val = $util.escapeJavaScript($util.urlDecode($keyVal[1])).replaceAll(\"\\\\'\",\"'\"))\n          #else\n            #set( $val = '' )\n          #end\n          \"$key\": \"$val\"#if($foreach.hasNext),#end\n        #end\n      #end\n      }\n    #end\n\n    \n  #define( $loop )\n    {\n    #foreach($key in $map.keySet())\n        #set( $k = $util.escapeJavaScript($key) )\n        #set( $v = $util.escapeJavaScript($map.get($key)).replaceAll(\"\\\\'\", \"'\") )\n        \"$k\":\n          \"$v\"\n          #if( $foreach.hasNext ) , #end\n    #end\n    }\n  #end\n\n  {\n    \"body\": $body,\n    \"method\": \"$context.httpMethod\",\n    \"principalId\": \"$context.authorizer.principalId\",\n    \"stage\": \"$context.stage\",\n\n    \"cognitoPoolClaims\" : {\n       extraCognitoPoolClaims\n       \"sub\": \"$context.authorizer.claims.sub\"\n    },\n\n    #set( $map = $context.authorizer )\n    \"enhancedAuthContext\": $loop,\n\n    #set( $map = $input.params().header )\n    \"headers\": $loop,\n\n    #set( $map = $input.params().querystring )\n    \"query\": $loop,\n\n    #set( $map = $input.params().path )\n    \"path\": $loop,\n\n    #set( $map = $context.identity )\n    \"identity\": $loop,\n\n    #set( $map = $stageVariables )\n    \"stageVariables\": $loop,\n\n    \"requestPath\": \"$context.resourcePath\"\n  }\n\n  ",
+        "hooks": {},
+        "validated": {
+          "events": [
+            {
+              "functionName": "hello",
+              "http": "[circular ref]"
+            }
+          ],
+          "corsPreflight": {}
+        },
+        "apiGatewayRestApiLogicalId": "ApiGatewayRestApi",
+        "apiGatewayResources": {
+          "hello": {
+            "path": "hello",
+            "pathPart": "hello",
+            "level": 0,
+            "children": [],
+            "name": "Hello",
+            "hasMethod": true,
+            "resourceLogicalId": "ApiGatewayResourceHello",
+            "resourceId": {
+              "Ref": "ApiGatewayResourceHello"
+            }
+          }
+        },
+        "permissionMapping": [
+          {
+            "resourceName": "Hello",
+            "lambdaLogicalId": "HelloLambdaFunction",
+            "event": "[circular ref]"
+          }
+        ],
+        "apiGatewayDeploymentLogicalId": "ApiGatewayDeployment1609020899882",
+        "apiGatewayStageLogicalId": "ApiGatewayStage"
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {},
+        "validated": {
+          "events": []
+        }
+      },
+      {
+        "serverless": "[circular ref]",
+        "provider": "[circular ref]",
+        "options": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {},
+        "validated": {
+          "events": [],
+          "authorizers": {}
+        }
+      },
+      {
+        "serverless": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "lambdaEdgeLimits": {
+          "origin-request": {
+            "maxTimeout": 30,
+            "maxMemorySize": 3008
+          },
+          "origin-response": "[circular ref]",
+          "viewer-request": {
+            "maxTimeout": 5,
+            "maxMemorySize": 128
+          },
+          "viewer-response": "[circular ref]",
+          "default": "[circular ref]"
+        },
+        "hooks": {},
+        "cloudFrontDistributionLogicalId": "CloudFrontDistribution",
+        "cloudFrontDistributionDomainNameLogicalId": "CloudFrontDistributionDomainName"
+      },
+      {
+        "serverless": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {},
+        "config": {
+          "routes": {},
+          "authorizers": {}
+        }
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "packagePath": "/home/moshea/repos/slsplugindev/.serverless",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "provider": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "cliOptions": "[circular ref]",
+        "commands": {
+          "upgrade": {
+            "isHidden": true,
+            "usage": "Upgrade Serverless",
+            "lifecycleEvents": [
+              "upgrade"
+            ],
+            "options": {
+              "major": {
+                "usage": "Enable upgrade to a new major release"
+              }
+            }
+          },
+          "uninstall": {
+            "isHidden": true,
+            "usage": "Uninstall Serverless",
+            "lifecycleEvents": [
+              "uninstall"
+            ]
+          }
+        },
+        "hooks": {}
+      },
+      {
+        "serverless": "[circular ref]",
+        "options": "[circular ref]",
+        "hooks": {}
+      },
+      {
+        "sls": "[circular ref]",
+        "state": {
+          "secretsUsed": {}
+        },
+        "commands": {
+          "login": {
+            "usage": "Login or sign up for Serverless",
+            "lifecycleEvents": [
+              "login"
+            ],
+            "enterprise": true
+          },
+          "logout": {
+            "usage": "Logout from Serverless",
+            "lifecycleEvents": [
+              "logout"
+            ],
+            "enterprise": true
+          },
+          "generate-event": {
+            "usage": "Generate event",
+            "lifecycleEvents": [
+              "generate-event"
+            ],
+            "options": {
+              "type": {
+                "usage": "Specify event type. aws:apiGateway, aws:sns, aws:sqs, aws:dynamo, aws:kinesis, aws:cloudWatchLog, aws:s3, aws:alexaSmartHome, aws:alexaSkill, aws:cloudWatch, aws:iot, aws:cognitoUserPool, aws:websocket are supported.",
+                "shortcut": "t",
+                "required": true
+              },
+              "body": {
+                "usage": "Specify the body for the message, request, or stream event.",
+                "shortcut": "b"
+              }
+            },
+            "enterprise": true
+          },
+          "test": {
+            "usage": "Run HTTP tests",
+            "lifecycleEvents": [
+              "test"
+            ],
+            "options": {
+              "function": {
+                "usage": "Specify the function to test",
+                "shortcut": "f"
+              },
+              "test": {
+                "usage": "Specify a specific test to run",
+                "shortcut": "t"
+              }
+            },
+            "enterprise": true
+          },
+          "dashboard": {
+            "usage": "Open the Serverless dashboard",
+            "lifecycleEvents": [
+              "dashboard"
+            ],
+            "enterprise": true
+          },
+          "output": {
+            "usage": "",
+            "commands": {
+              "get": {
+                "usage": "Get value of dashboard deployment profile parameter",
+                "lifecycleEvents": [
+                  "get"
+                ],
+                "options": {
+                  "name": {
+                    "usage": "Ouptut name"
+                  },
+                  "org": {
+                    "usage": "Dashboard org"
+                  },
+                  "app": {
+                    "usage": "Dashboard app"
+                  },
+                  "service": {
+                    "usage": "Dashboard service"
+                  },
+                  "stage": {
+                    "usage": "Dashboard stage"
+                  },
+                  "region": {
+                    "usage": "Region"
+                  }
+                }
+              },
+              "list": {
+                "usage": "List all dashboard deployment profile parameters",
+                "lifecycleEvents": [
+                  "list"
+                ],
+                "options": {
+                  "org": {
+                    "usage": "Dashboard org"
+                  },
+                  "app": {
+                    "usage": "Dashboard app"
+                  },
+                  "service": {
+                    "usage": "Dashboard service"
+                  },
+                  "stage": {
+                    "usage": "Dashboard stage"
+                  },
+                  "region": {
+                    "usage": "Region"
+                  }
+                }
+              }
+            }
+          },
+          "param": {
+            "usage": "",
+            "commands": {
+              "get": {
+                "usage": "Get value of dashboard service output",
+                "lifecycleEvents": [
+                  "get"
+                ],
+                "options": {
+                  "org": {
+                    "usage": "Dashboard org"
+                  },
+                  "app": {
+                    "usage": "Dashboard app"
+                  },
+                  "stage": {
+                    "usage": "Dashboard stage"
+                  }
+                }
+              },
+              "list": {
+                "usage": "List all dashboard service outputs",
+                "lifecycleEvents": [
+                  "list"
+                ],
+                "options": {
+                  "org": {
+                    "usage": "Dashboard org"
+                  },
+                  "app": {
+                    "usage": "Dashboard app"
+                  },
+                  "stage": {
+                    "usage": "Dashboard stage"
+                  }
+                }
+              }
+            }
+          },
+          "studio": {
+            "usage": "Develop a Serverless application in the cloud.",
+            "lifecycleEvents": [
+              "studio"
+            ],
+            "options": {
+              "stage": {
+                "usage": "Stage to use for development.",
+                "shortcut": "s"
+              },
+              "region": {
+                "usage": "Region to use for development.",
+                "shortcut": "r"
+              },
+              "autoStage": {
+                "usage": "If specified, generate a random stage. This stage will be removed on exit.",
+                "shortcut": "a"
+              }
+            },
+            "enterprise": true,
+            "configDependent": true
+          },
+          "dev": {
+            "lifecycleEvents": [
+              "dev"
+            ],
+            "isHidden": true
+          }
+        },
+        "hooks": {},
+        "variableResolvers": {
+          "param": {
+            "serviceName": "Serverless Parameters",
+            "isDisabledAtPrepopulation": true
+          },
+          "secrets": {
+            "serviceName": "Serverless Secrets",
+            "isDisabledAtPrepopulation": true
+          },
+          "output": {
+            "serviceName": "Serverless Outputs",
+            "isDisabledAtPrepopulation": true
+          },
+          "state": {
+            "serviceName": "Serverless Outputs",
+            "isDisabledAtPrepopulation": true
+          }
+        },
+        "sfeEnabledHooks": {},
+        "provider": "[circular ref]"
+      }
+    ],
+    "commands": {
+      "interactiveCli": {
+        "isHidden": true,
+        "options": {},
+        "lifecycleEvents": [
+          "initializeService",
+          "setupAws",
+          "tabCompletion",
+          "end"
+        ],
+        "key": "interactiveCli",
+        "pluginName": "InteractiveCli",
+        "commands": {}
+      },
+      "config": {
+        "usage": "Configure Serverless",
+        "configDependent": false,
+        "commands": {
+          "credentials": {
+            "usage": "Configures a new provider profile for the Serverless Framework",
+            "lifecycleEvents": [
+              "config"
+            ],
+            "validProviders": "[circular ref]",
+            "options": {
+              "provider": {
+                "usage": "Name of the provider. Supported providers: \"aws\"",
+                "required": true,
+                "shortcut": "p"
+              },
+              "key": {
+                "usage": "Access key for the provider",
+                "shortcut": "k",
+                "required": true
+              },
+              "secret": {
+                "usage": "Secret key for the provider",
+                "shortcut": "s",
+                "required": true
+              },
+              "profile": {
+                "usage": "Name of the profile you wish to create. Defaults to \"default\"",
+                "shortcut": "n"
+              },
+              "overwrite": {
+                "usage": "Overwrite the existing profile configuration in the credentials file",
+                "shortcut": "o"
+              }
+            },
+            "key": "config:credentials",
+            "pluginName": "AwsConfigCredentials",
+            "commands": {}
+          },
+          "tabcompletion": {
+            "usage": "Configure command line <tab> completion",
+            "commands": {
+              "install": {
+                "usage": "Install a <tab> completion for chosen shell",
+                "lifecycleEvents": [
+                  "install"
+                ],
+                "options": {
+                  "shell": {
+                    "usage": "Shell for which <tab> completion should be installed. Supported options: bash (default), zsh, fish ",
+                    "shortcut": "s"
+                  },
+                  "location": {
+                    "usage": "Custom location for shell config",
+                    "shortcut": "l"
+                  }
+                },
+                "key": "config:tabcompletion:install",
+                "pluginName": "Config",
+                "commands": {}
+              },
+              "uninstall": {
+                "usage": "Uninstall a <tab> completion for chosen shell",
+                "lifecycleEvents": [
+                  "uninstall"
+                ],
+                "key": "config:tabcompletion:uninstall",
+                "pluginName": "Config",
+                "commands": {}
+              }
+            },
+            "key": "config:tabcompletion",
+            "pluginName": "Config"
+          }
+        },
+        "key": "config",
+        "pluginName": "AwsConfigCredentials",
+        "lifecycleEvents": []
+      },
+      "create": {
+        "usage": "Create new Serverless service",
+        "lifecycleEvents": [
+          "create"
+        ],
+        "options": {
+          "template": {
+            "usage": "Template for the service. Available templates: \n                                             \"aws-clojure-gradle\", \"aws-clojurescript-gradle\", \"aws-nodejs\", \"aws-nodejs-typescript\", \"aws-alexa-typescript\", \"aws-nodejs-ecma-script\", \"aws-python\", \"aws-python3\"\n                                             \"aws-groovy-gradle\", \"aws-java-maven\", \"aws-java-gradle\", \"aws-kotlin-jvm-maven\", \"aws-kotlin-jvm-gradle\", \"aws-kotlin-jvm-gradle-kts\", \"aws-kotlin-nodejs-gradle\", \"aws-scala-sbt\"\n                                             \"aws-csharp\", \"aws-fsharp\", \"aws-go\", \"aws-go-dep\", \"aws-go-mod\", \"aws-ruby\", \"aws-provided\"\n                                             \"tencent-go\", \"tencent-nodejs\", \"tencent-python\", \"tencent-php\"\n                                             \"azure-csharp\", \"azure-nodejs\", \"azure-nodejs-typescript\", \"azure-python\"\n                                             \"cloudflare-workers\", \"cloudflare-workers-enterprise\", \"cloudflare-workers-rust\"\n                                             \"fn-nodejs\", \"fn-go\"\n                                             \"google-nodejs\", \"google-python\", \"google-go\"\n                                             \"kubeless-python\", \"kubeless-nodejs\"\n                                             \"knative-docker\"\n                                             \"openwhisk-java-maven\", \"openwhisk-nodejs\", \"openwhisk-php\", \"openwhisk-python\", \"openwhisk-ruby\", \"openwhisk-swift\"\n                                             \"spotinst-nodejs\", \"spotinst-python\", \"spotinst-ruby\", \"spotinst-java8\"\n                                             \"twilio-nodejs\"\n                                             \"aliyun-nodejs\"\n                                             \"plugin\"\n                                             \"hello-world\"",
+            "shortcut": "t"
+          },
+          "template-url": {
+            "usage": "Template URL for the service. Supports: GitHub, BitBucket",
+            "shortcut": "u"
+          },
+          "template-path": {
+            "usage": "Template local path for the service."
+          },
+          "path": {
+            "usage": "The path where the service should be created (e.g. --path my-service)",
+            "shortcut": "p"
+          },
+          "name": {
+            "usage": "Name for the service. Overwrites the default name of the created service.",
+            "shortcut": "n"
+          }
+        },
+        "key": "create",
+        "pluginName": "Create",
+        "commands": {}
+      },
+      "install": {
+        "usage": "Install a Serverless service from GitHub or a plugin from the Serverless registry",
+        "lifecycleEvents": [
+          "install"
+        ],
+        "options": {
+          "url": {
+            "usage": "URL of the Serverless service on GitHub",
+            "required": true,
+            "shortcut": "u"
+          },
+          "name": {
+            "usage": "Name for the service",
+            "shortcut": "n"
+          }
+        },
+        "key": "install",
+        "pluginName": "Install",
+        "commands": {}
+      },
+      "package": {
+        "usage": "Packages a Serverless service",
+        "configDependent": true,
+        "lifecycleEvents": [
+          "cleanup",
+          "initialize",
+          "setupProviderConfiguration",
+          "createDeploymentArtifacts",
+          "compileLayers",
+          "compileFunctions",
+          "compileEvents",
+          "finalize"
+        ],
+        "options": {
+          "stage": {
+            "usage": "Stage of the service",
+            "shortcut": "s"
+          },
+          "region": {
+            "usage": "Region of the service",
+            "shortcut": "r"
+          },
+          "package": {
+            "usage": "Output path for the package",
+            "shortcut": "p"
+          },
+          "app": {
+            "usage": "Dashboard app"
+          },
+          "org": {
+            "usage": "Dashboard org"
+          }
+        },
+        "commands": {
+          "function": {
+            "type": "entrypoint",
+            "lifecycleEvents": [
+              "package"
+            ],
+            "key": "package:function",
+            "pluginName": "Package",
+            "commands": {}
+          }
+        },
+        "key": "package",
+        "pluginName": "Package"
+      },
+      "deploy": {
+        "usage": "Deploy a Serverless service",
+        "configDependent": true,
+        "lifecycleEvents": [
+          "cleanup",
+          "initialize",
+          "setupProviderConfiguration",
+          "createDeploymentArtifacts",
+          "compileFunctions",
+          "compileEvents",
+          "deploy",
+          "finalize"
+        ],
+        "options": {
+          "conceal": {
+            "usage": "Hide secrets from the output (e.g. API Gateway key values)"
+          },
+          "stage": {
+            "usage": "Stage of the service",
+            "shortcut": "s"
+          },
+          "region": {
+            "usage": "Region of the service",
+            "shortcut": "r"
+          },
+          "package": {
+            "usage": "Path of the deployment package",
+            "shortcut": "p"
+          },
+          "verbose": {
+            "usage": "Show all stack events during deployment",
+            "shortcut": "v"
+          },
+          "force": {
+            "usage": "Forces a deployment to take place"
+          },
+          "function": {
+            "usage": "Function name. Deploys a single function (see 'deploy function')",
+            "shortcut": "f"
+          },
+          "aws-s3-accelerate": {
+            "usage": "Enables S3 Transfer Acceleration making uploading artifacts much faster."
+          },
+          "app": {
+            "usage": "Dashboard app"
+          },
+          "org": {
+            "usage": "Dashboard org"
+          }
+        },
+        "commands": {
+          "function": {
+            "usage": "Deploy a single function from the service",
+            "lifecycleEvents": [
+              "initialize",
+              "packageFunction",
+              "deploy"
+            ],
+            "options": {
+              "function": {
+                "usage": "Name of the function",
+                "shortcut": "f",
+                "required": true
+              },
+              "stage": {
+                "usage": "Stage of the function",
+                "shortcut": "s"
+              },
+              "region": {
+                "usage": "Region of the function",
+                "shortcut": "r"
+              },
+              "force": {
+                "usage": "Forces a deployment to take place"
+              },
+              "update-config": {
+                "usage": "Updates function configuration, e.g. Timeout or Memory Size without deploying code",
+                "shortcut": "u"
+              }
+            },
+            "key": "deploy:function",
+            "pluginName": "Deploy",
+            "commands": {}
+          },
+          "list": {
+            "usage": "List deployed version of your Serverless Service",
+            "lifecycleEvents": [
+              "log"
+            ],
+            "commands": {
+              "functions": {
+                "usage": "List all the deployed functions and their versions",
+                "lifecycleEvents": [
+                  "log"
+                ],
+                "key": "deploy:list:functions",
+                "pluginName": "Deploy",
+                "commands": {}
+              }
+            },
+            "key": "deploy:list",
+            "pluginName": "Deploy"
+          }
+        },
+        "key": "deploy",
+        "pluginName": "Deploy"
+      },
+      "invoke": {
+        "usage": "Invoke a deployed function",
+        "configDependent": true,
+        "lifecycleEvents": [
+          "invoke"
+        ],
+        "options": {
+          "function": {
+            "usage": "The function name",
+            "required": true,
+            "shortcut": "f"
+          },
+          "stage": {
+            "usage": "Stage of the service",
+            "shortcut": "s"
+          },
+          "region": {
+            "usage": "Region of the service",
+            "shortcut": "r"
+          },
+          "qualifier": {
+            "usage": "Version number or alias to invoke",
+            "shortcut": "q"
+          },
+          "path": {
+            "usage": "Path to JSON or YAML file holding input data",
+            "shortcut": "p"
+          },
+          "type": {
+            "usage": "Type of invocation",
+            "shortcut": "t"
+          },
+          "log": {
+            "usage": "Trigger logging data output",
+            "shortcut": "l"
+          },
+          "data": {
+            "usage": "Input data",
+            "shortcut": "d"
+          },
+          "raw": {
+            "usage": "Flag to pass input data as a raw string"
+          },
+          "app": {
+            "usage": "Dashboard app"
+          },
+          "org": {
+            "usage": "Dashboard org"
+          }
+        },
+        "commands": {
+          "local": {
+            "usage": "Invoke function locally",
+            "lifecycleEvents": [
+              "loadEnvVars",
+              "invoke"
+            ],
+            "options": {
+              "function": {
+                "usage": "Name of the function",
+                "shortcut": "f",
+                "required": true
+              },
+              "path": {
+                "usage": "Path to JSON or YAML file holding input data",
+                "shortcut": "p"
+              },
+              "data": {
+                "usage": "input data",
+                "shortcut": "d"
+              },
+              "raw": {
+                "usage": "Flag to pass input data as a raw string"
+              },
+              "context": {
+                "usage": "Context of the service",
+                "shortcut": "c"
+              },
+              "contextPath": {
+                "usage": "Path to JSON or YAML file holding context data",
+                "shortcut": "x"
+              },
+              "env": {
+                "usage": "Override environment variables. e.g. --env VAR1=val1 --env VAR2=val2",
+                "shortcut": "e"
+              },
+              "docker": {
+                "usage": "Flag to turn on docker use for node/python/ruby/java"
+              },
+              "docker-arg": {
+                "usage": "Arguments to docker run command. e.g. --docker-arg \"-p 9229:9229\""
+              }
+            },
+            "key": "invoke:local",
+            "pluginName": "Invoke",
+            "commands": {}
+          }
+        },
+        "key": "invoke",
+        "pluginName": "Invoke"
+      },
+      "info": {
+        "usage": "Display information about the service",
+        "configDependent": true,
+        "lifecycleEvents": [
+          "info"
+        ],
+        "options": {
+          "stage": {
+            "usage": "Stage of the service",
+            "shortcut": "s"
+          },
+          "region": {
+            "usage": "Region of the service",
+            "shortcut": "r"
+          },
+          "verbose": {
+            "usage": "Display Stack output",
+            "shortcut": "v"
+          },
+          "app": {
+            "usage": "Dashboard app"
+          },
+          "org": {
+            "usage": "Dashboard org"
+          }
+        },
+        "key": "info",
+        "pluginName": "Info",
+        "commands": {}
+      },
+      "logs": {
+        "usage": "Output the logs of a deployed function",
+        "configDependent": true,
+        "lifecycleEvents": [
+          "logs"
+        ],
+        "options": {
+          "function": {
+            "usage": "The function name",
+            "required": true,
+            "shortcut": "f"
+          },
+          "stage": {
+            "usage": "Stage of the service",
+            "shortcut": "s"
+          },
+          "region": {
+            "usage": "Region of the service",
+            "shortcut": "r"
+          },
+          "tail": {
+            "usage": "Tail the log output",
+            "shortcut": "t"
+          },
+          "startTime": {
+            "usage": "Logs before this time will not be displayed. Default: `10m` (last 10 minutes logs only)"
+          },
+          "filter": {
+            "usage": "A filter pattern"
+          },
+          "interval": {
+            "usage": "Tail polling interval in milliseconds. Default: `1000`",
+            "shortcut": "i"
+          },
+          "app": {
+            "usage": "Dashboard app"
+          },
+          "org": {
+            "usage": "Dashboard org"
+          }
+        },
+        "key": "logs",
+        "pluginName": "Logs",
+        "commands": {}
+      },
+      "metrics": {
+        "usage": "Show metrics for a specific function",
+        "configDependent": true,
+        "lifecycleEvents": [
+          "metrics"
+        ],
+        "options": {
+          "function": {
+            "usage": "The function name",
+            "shortcut": "f"
+          },
+          "stage": {
+            "usage": "Stage of the service",
+            "shortcut": "s"
+          },
+          "region": {
+            "usage": "Region of the service",
+            "shortcut": "r"
+          },
+          "startTime": {
+            "usage": "Start time for the metrics retrieval (e.g. 1970-01-01)"
+          },
+          "endTime": {
+            "usage": "End time for the metrics retrieval (e.g. 1970-01-01)"
+          },
+          "app": {
+            "usage": "Dashboard app"
+          },
+          "org": {
+            "usage": "Dashboard org"
+          }
+        },
+        "key": "metrics",
+        "pluginName": "Metrics",
+        "commands": {}
+      },
+      "print": {
+        "usage": "Print your compiled and resolved config file",
+        "configDependent": true,
+        "lifecycleEvents": [
+          "print"
+        ],
+        "options": {
+          "format": {
+            "usage": "Print configuration in given format (\"yaml\", \"json\", \"text\"). Default: yaml"
+          },
+          "path": {
+            "usage": "Optional period-separated path to print a sub-value (eg: \"provider.name\")"
+          },
+          "transform": {
+            "usage": "Optional transform-function to apply to the value (\"keys\")"
+          },
+          "app": {
+            "usage": "Dashboard app"
+          },
+          "org": {
+            "usage": "Dashboard org"
+          }
+        },
+        "key": "print",
+        "pluginName": "Print",
+        "commands": {}
+      },
+      "remove": {
+        "usage": "Remove Serverless service and all resources",
+        "configDependent": true,
+        "lifecycleEvents": [
+          "remove"
+        ],
+        "options": {
+          "stage": {
+            "usage": "Stage of the service",
+            "shortcut": "s"
+          },
+          "region": {
+            "usage": "Region of the service",
+            "shortcut": "r"
+          },
+          "verbose": {
+            "usage": "Show all stack events during deployment",
+            "shortcut": "v"
+          },
+          "app": {
+            "usage": "Dashboard app"
+          },
+          "org": {
+            "usage": "Dashboard org"
+          }
+        },
+        "key": "remove",
+        "pluginName": "Remove",
+        "commands": {}
+      },
+      "rollback": {
+        "usage": "Rollback the Serverless service to a specific deployment",
+        "configDependent": true,
+        "lifecycleEvents": [
+          "initialize",
+          "rollback"
+        ],
+        "options": {
+          "timestamp": {
+            "usage": "Timestamp of the deployment (list deployments with `serverless deploy list`)",
+            "shortcut": "t",
+            "required": false
+          },
+          "verbose": {
+            "usage": "Show all stack events during deployment",
+            "shortcut": "v"
+          },
+          "app": {
+            "usage": "Dashboard app"
+          },
+          "org": {
+            "usage": "Dashboard org"
+          }
+        },
+        "commands": {
+          "function": {
+            "usage": "Rollback the function to a specific version",
+            "lifecycleEvents": [
+              "rollback"
+            ],
+            "options": {
+              "function": {
+                "usage": "Name of the function",
+                "shortcut": "f",
+                "required": true
+              },
+              "function-version": {
+                "usage": "Version of the function",
+                "required": true
+              },
+              "stage": {
+                "usage": "Stage of the function",
+                "shortcut": "s"
+              },
+              "region": {
+                "usage": "Region of the function",
+                "shortcut": "r"
+              }
+            },
+            "key": "rollback:function",
+            "pluginName": "AwsRollbackFunction",
+            "commands": {}
+          }
+        },
+        "key": "rollback",
+        "pluginName": "AwsRollbackFunction"
+      },
+      "slstats": {
+        "usage": "Enable or disable stats",
+        "configDependent": true,
+        "lifecycleEvents": [
+          "slstats"
+        ],
+        "options": {
+          "enable": {
+            "usage": "Enable stats (\"--enable\")",
+            "shortcut": "e"
+          },
+          "disable": {
+            "usage": "Disable stats (\"--disable\")",
+            "shortcut": "d"
+          },
+          "app": {
+            "usage": "Dashboard app"
+          },
+          "org": {
+            "usage": "Dashboard org"
+          }
+        },
+        "key": "slstats",
+        "pluginName": "SlStats",
+        "commands": {}
+      },
+      "plugin": {
+        "usage": "Plugin management for Serverless",
+        "lifecycleEvents": [
+          "plugin"
+        ],
+        "key": "plugin",
+        "pluginName": "PluginSearch",
+        "commands": {
+          "install": {
+            "usage": "Install and add a plugin to your service",
+            "lifecycleEvents": [
+              "install"
+            ],
+            "options": {
+              "name": {
+                "usage": "The plugin name",
+                "required": true,
+                "shortcut": "n"
+              }
+            },
+            "key": "plugin:install",
+            "pluginName": "PluginInstall",
+            "commands": {}
+          },
+          "uninstall": {
+            "usage": "Uninstall and remove a plugin from your service",
+            "lifecycleEvents": [
+              "uninstall"
+            ],
+            "options": {
+              "name": {
+                "usage": "The plugin name",
+                "required": true,
+                "shortcut": "n"
+              }
+            },
+            "key": "plugin:uninstall",
+            "pluginName": "PluginUninstall",
+            "commands": {}
+          },
+          "list": {
+            "usage": "Lists all available plugins",
+            "lifecycleEvents": [
+              "list"
+            ],
+            "key": "plugin:list",
+            "pluginName": "PluginList",
+            "commands": {}
+          },
+          "search": {
+            "usage": "Search for plugins",
+            "lifecycleEvents": [
+              "search"
+            ],
+            "options": {
+              "query": {
+                "usage": "Search query",
+                "required": true,
+                "shortcut": "q"
+              }
+            },
+            "key": "plugin:search",
+            "pluginName": "PluginSearch",
+            "commands": {}
+          }
+        }
+      },
+      "aws": {
+        "type": "entrypoint",
+        "commands": {
+          "common": {
+            "commands": {
+              "validate": {
+                "lifecycleEvents": [
+                  "validate"
+                ],
+                "key": "aws:common:validate",
+                "pluginName": "AwsCommon",
+                "commands": {}
+              },
+              "cleanupTempDir": {
+                "lifecycleEvents": [
+                  "cleanup"
+                ],
+                "key": "aws:common:cleanupTempDir",
+                "pluginName": "AwsCommon",
+                "commands": {}
+              },
+              "moveArtifactsToPackage": {
+                "lifecycleEvents": [
+                  "move"
+                ],
+                "key": "aws:common:moveArtifactsToPackage",
+                "pluginName": "AwsCommon",
+                "commands": {}
+              },
+              "moveArtifactsToTemp": {
+                "lifecycleEvents": [
+                  "move"
+                ],
+                "key": "aws:common:moveArtifactsToTemp",
+                "pluginName": "AwsCommon",
+                "commands": {}
+              }
+            },
+            "key": "aws:common",
+            "pluginName": "AwsCommon"
+          },
+          "package": {
+            "commands": {
+              "finalize": {
+                "lifecycleEvents": [
+                  "mergeCustomProviderResources",
+                  "saveServiceState"
+                ],
+                "key": "aws:package:finalize",
+                "pluginName": "AwsPackage",
+                "commands": {}
+              }
+            },
+            "key": "aws:package",
+            "pluginName": "AwsPackage"
+          },
+          "deploy": {
+            "commands": {
+              "deploy": {
+                "lifecycleEvents": [
+                  "createStack",
+                  "checkForChanges",
+                  "uploadArtifacts",
+                  "validateTemplate",
+                  "updateStack"
+                ],
+                "key": "aws:deploy:deploy",
+                "pluginName": "AwsDeploy",
+                "commands": {}
+              },
+              "finalize": {
+                "lifecycleEvents": [
+                  "cleanup"
+                ],
+                "key": "aws:deploy:finalize",
+                "pluginName": "AwsDeploy",
+                "commands": {}
+              }
+            },
+            "key": "aws:deploy",
+            "pluginName": "AwsDeploy"
+          },
+          "info": {
+            "lifecycleEvents": [
+              "validate",
+              "gatherData",
+              "displayServiceInfo",
+              "displayApiKeys",
+              "displayEndpoints",
+              "displayFunctions",
+              "displayLayers",
+              "displayStackOutputs"
+            ],
+            "key": "aws:info",
+            "pluginName": "AwsInfo",
+            "commands": {}
+          }
+        },
+        "key": "aws",
+        "pluginName": "AwsInfo",
+        "lifecycleEvents": []
+      },
+      "upgrade": {
+        "isHidden": true,
+        "usage": "Upgrade Serverless",
+        "lifecycleEvents": [
+          "upgrade"
+        ],
+        "options": {
+          "major": {
+            "usage": "Enable upgrade to a new major release"
+          }
+        },
+        "key": "upgrade",
+        "pluginName": "Standalone",
+        "commands": {}
+      },
+      "uninstall": {
+        "isHidden": true,
+        "usage": "Uninstall Serverless",
+        "lifecycleEvents": [
+          "uninstall"
+        ],
+        "key": "uninstall",
+        "pluginName": "Standalone",
+        "commands": {}
+      },
+      "login": {
+        "usage": "Login or sign up for Serverless",
+        "lifecycleEvents": [
+          "login"
+        ],
+        "enterprise": true,
+        "key": "login",
+        "pluginName": "ServerlessEnterprisePlugin",
+        "commands": {}
+      },
+      "logout": {
+        "usage": "Logout from Serverless",
+        "lifecycleEvents": [
+          "logout"
+        ],
+        "enterprise": true,
+        "key": "logout",
+        "pluginName": "ServerlessEnterprisePlugin",
+        "commands": {}
+      },
+      "generate-event": {
+        "usage": "Generate event",
+        "lifecycleEvents": [
+          "generate-event"
+        ],
+        "options": {
+          "type": {
+            "usage": "Specify event type. aws:apiGateway, aws:sns, aws:sqs, aws:dynamo, aws:kinesis, aws:cloudWatchLog, aws:s3, aws:alexaSmartHome, aws:alexaSkill, aws:cloudWatch, aws:iot, aws:cognitoUserPool, aws:websocket are supported.",
+            "shortcut": "t",
+            "required": true
+          },
+          "body": {
+            "usage": "Specify the body for the message, request, or stream event.",
+            "shortcut": "b"
+          }
+        },
+        "enterprise": true,
+        "key": "generate-event",
+        "pluginName": "ServerlessEnterprisePlugin",
+        "commands": {}
+      },
+      "test": {
+        "usage": "Run HTTP tests",
+        "lifecycleEvents": [
+          "test"
+        ],
+        "options": {
+          "function": {
+            "usage": "Specify the function to test",
+            "shortcut": "f"
+          },
+          "test": {
+            "usage": "Specify a specific test to run",
+            "shortcut": "t"
+          }
+        },
+        "enterprise": true,
+        "key": "test",
+        "pluginName": "ServerlessEnterprisePlugin",
+        "commands": {}
+      },
+      "dashboard": {
+        "usage": "Open the Serverless dashboard",
+        "lifecycleEvents": [
+          "dashboard"
+        ],
+        "enterprise": true,
+        "key": "dashboard",
+        "pluginName": "ServerlessEnterprisePlugin",
+        "commands": {}
+      },
+      "output": {
+        "usage": "",
+        "commands": {
+          "get": {
+            "usage": "Get value of dashboard deployment profile parameter",
+            "lifecycleEvents": [
+              "get"
+            ],
+            "options": {
+              "name": {
+                "usage": "Ouptut name"
+              },
+              "org": {
+                "usage": "Dashboard org"
+              },
+              "app": {
+                "usage": "Dashboard app"
+              },
+              "service": {
+                "usage": "Dashboard service"
+              },
+              "stage": {
+                "usage": "Dashboard stage"
+              },
+              "region": {
+                "usage": "Region"
+              }
+            },
+            "key": "output:get",
+            "pluginName": "ServerlessEnterprisePlugin",
+            "commands": {}
+          },
+          "list": {
+            "usage": "List all dashboard deployment profile parameters",
+            "lifecycleEvents": [
+              "list"
+            ],
+            "options": {
+              "org": {
+                "usage": "Dashboard org"
+              },
+              "app": {
+                "usage": "Dashboard app"
+              },
+              "service": {
+                "usage": "Dashboard service"
+              },
+              "stage": {
+                "usage": "Dashboard stage"
+              },
+              "region": {
+                "usage": "Region"
+              }
+            },
+            "key": "output:list",
+            "pluginName": "ServerlessEnterprisePlugin",
+            "commands": {}
+          }
+        },
+        "key": "output",
+        "pluginName": "ServerlessEnterprisePlugin",
+        "lifecycleEvents": []
+      },
+      "param": {
+        "usage": "",
+        "commands": {
+          "get": {
+            "usage": "Get value of dashboard service output",
+            "lifecycleEvents": [
+              "get"
+            ],
+            "options": {
+              "org": {
+                "usage": "Dashboard org"
+              },
+              "app": {
+                "usage": "Dashboard app"
+              },
+              "stage": {
+                "usage": "Dashboard stage"
+              }
+            },
+            "key": "param:get",
+            "pluginName": "ServerlessEnterprisePlugin",
+            "commands": {}
+          },
+          "list": {
+            "usage": "List all dashboard service outputs",
+            "lifecycleEvents": [
+              "list"
+            ],
+            "options": {
+              "org": {
+                "usage": "Dashboard org"
+              },
+              "app": {
+                "usage": "Dashboard app"
+              },
+              "stage": {
+                "usage": "Dashboard stage"
+              }
+            },
+            "key": "param:list",
+            "pluginName": "ServerlessEnterprisePlugin",
+            "commands": {}
+          }
+        },
+        "key": "param",
+        "pluginName": "ServerlessEnterprisePlugin",
+        "lifecycleEvents": []
+      },
+      "studio": {
+        "usage": "Develop a Serverless application in the cloud.",
+        "lifecycleEvents": [
+          "studio"
+        ],
+        "options": {
+          "stage": {
+            "usage": "Stage to use for development.",
+            "shortcut": "s"
+          },
+          "region": {
+            "usage": "Region to use for development.",
+            "shortcut": "r"
+          },
+          "autoStage": {
+            "usage": "If specified, generate a random stage. This stage will be removed on exit.",
+            "shortcut": "a"
+          }
+        },
+        "enterprise": true,
+        "configDependent": true,
+        "key": "studio",
+        "pluginName": "ServerlessEnterprisePlugin",
+        "commands": {}
+      },
+      "dev": {
+        "lifecycleEvents": [
+          "dev"
+        ],
+        "isHidden": true,
+        "key": "dev",
+        "pluginName": "ServerlessEnterprisePlugin",
+        "commands": {}
+      }
+    },
+    "aliases": {},
+    "hooks": {
+      "interactiveCli:initializeService": [
+        {
+          "pluginName": "InteractiveCli"
+        }
+      ],
+      "interactiveCli:setupAws": [
+        {
+          "pluginName": "InteractiveCli"
+        }
+      ],
+      "interactiveCli:tabCompletion": [
+        {
+          "pluginName": "InteractiveCli"
+        }
+      ],
+      "before:config:credentials:config": [
+        {
+          "pluginName": "Config"
+        }
+      ],
+      "config:tabcompletion:install:install": [
+        {
+          "pluginName": "Config"
+        }
+      ],
+      "config:tabcompletion:uninstall:uninstall": [
+        {
+          "pluginName": "Config"
+        }
+      ],
+      "create:create": [
+        {
+          "pluginName": "Create"
+        }
+      ],
+      "install:install": [
+        {
+          "pluginName": "Install"
+        }
+      ],
+      "package:createDeploymentArtifacts": [
+        {
+          "pluginName": "Package"
+        }
+      ],
+      "package:function:package": [
+        {
+          "pluginName": "Package"
+        }
+      ],
+      "before:deploy:deploy": [
+        {
+          "pluginName": "Deploy"
+        },
+        {
+          "pluginName": "AwsDeploy"
+        },
+        {
+          "pluginName": "ServerlessPlugin"
+        }
+      ],
+      "after:deploy:finalize": [
+        {
+          "pluginName": "Deploy"
+        }
+      ],
+      "invoke:local:loadEnvVars": [
+        {
+          "pluginName": "Invoke"
+        }
+      ],
+      "after:invoke:invoke": [
+        {
+          "pluginName": "Invoke"
+        }
+      ],
+      "after:invoke:local:invoke": [
+        {
+          "pluginName": "Invoke"
+        }
+      ],
+      "print:print": [
+        {
+          "pluginName": "Print"
+        }
+      ],
+      "slstats:slstats": [
+        {
+          "pluginName": "SlStats"
+        }
+      ],
+      "plugin:plugin": [
+        {
+          "pluginName": "Plugin"
+        }
+      ],
+      "plugin:install:install": [
+        {
+          "pluginName": "PluginInstall"
+        }
+      ],
+      "plugin:uninstall:uninstall": [
+        {
+          "pluginName": "PluginUninstall"
+        }
+      ],
+      "plugin:list:list": [
+        {
+          "pluginName": "PluginList"
+        }
+      ],
+      "plugin:search:search": [
+        {
+          "pluginName": "PluginSearch"
+        }
+      ],
+      "config:credentials:config": [
+        {
+          "pluginName": "AwsConfigCredentials"
+        }
+      ],
+      "aws:common:validate:validate": [
+        {
+          "pluginName": "AwsCommon"
+        }
+      ],
+      "aws:common:cleanupTempDir:cleanup": [
+        {
+          "pluginName": "AwsCommon"
+        }
+      ],
+      "aws:common:moveArtifactsToPackage:move": [
+        {
+          "pluginName": "AwsCommon"
+        }
+      ],
+      "aws:common:moveArtifactsToTemp:move": [
+        {
+          "pluginName": "AwsCommon"
+        }
+      ],
+      "package:cleanup": [
+        {
+          "pluginName": "AwsPackage"
+        }
+      ],
+      "package:initialize": [
+        {
+          "pluginName": "AwsPackage"
+        },
+        {
+          "pluginName": "AwsCompileCloudFrontEvents"
+        }
+      ],
+      "package:setupProviderConfiguration": [
+        {
+          "pluginName": "AwsPackage"
+        }
+      ],
+      "before:package:compileFunctions": [
+        {
+          "pluginName": "AwsPackage"
+        },
+        {
+          "pluginName": "AwsCompileCloudFrontEvents"
+        }
+      ],
+      "before:package:compileLayers": [
+        {
+          "pluginName": "AwsPackage"
+        }
+      ],
+      "package:finalize": [
+        {
+          "pluginName": "AwsPackage"
+        }
+      ],
+      "aws:package:finalize:mergeCustomProviderResources": [
+        {
+          "pluginName": "AwsPackage"
+        }
+      ],
+      "aws:package:finalize:saveServiceState": [
+        {
+          "pluginName": "AwsPackage"
+        }
+      ],
+      "deploy:deploy": [
+        {
+          "pluginName": "AwsDeploy"
+        },
+        {
+          "pluginName": "AwsInfo"
+        }
+      ],
+      "deploy:finalize": [
+        {
+          "pluginName": "AwsDeploy"
+        }
+      ],
+      "aws:deploy:deploy:createStack": [
+        {
+          "pluginName": "AwsDeploy"
+        }
+      ],
+      "aws:deploy:deploy:checkForChanges": [
+        {
+          "pluginName": "AwsDeploy"
+        }
+      ],
+      "aws:deploy:deploy:uploadArtifacts": [
+        {
+          "pluginName": "AwsDeploy"
+        }
+      ],
+      "aws:deploy:deploy:validateTemplate": [
+        {
+          "pluginName": "AwsDeploy"
+        }
+      ],
+      "aws:deploy:deploy:updateStack": [
+        {
+          "pluginName": "AwsDeploy"
+        }
+      ],
+      "aws:deploy:finalize:cleanup": [
+        {
+          "pluginName": "AwsDeploy"
+        }
+      ],
+      "invoke:invoke": [
+        {
+          "pluginName": "AwsInvoke"
+        }
+      ],
+      "info:info": [
+        {
+          "pluginName": "AwsInfo"
+        }
+      ],
+      "aws:info:validate": [
+        {
+          "pluginName": "AwsInfo"
+        }
+      ],
+      "aws:info:gatherData": [
+        {
+          "pluginName": "AwsInfo"
+        }
+      ],
+      "aws:info:displayServiceInfo": [
+        {
+          "pluginName": "AwsInfo"
+        }
+      ],
+      "aws:info:displayApiKeys": [
+        {
+          "pluginName": "AwsInfo"
+        }
+      ],
+      "aws:info:displayEndpoints": [
+        {
+          "pluginName": "AwsInfo"
+        }
+      ],
+      "aws:info:displayFunctions": [
+        {
+          "pluginName": "AwsInfo"
+        }
+      ],
+      "aws:info:displayLayers": [
+        {
+          "pluginName": "AwsInfo"
+        }
+      ],
+      "aws:info:displayStackOutputs": [
+        {
+          "pluginName": "AwsInfo"
+        }
+      ],
+      "logs:logs": [
+        {
+          "pluginName": "AwsLogs"
+        }
+      ],
+      "metrics:metrics": [
+        {
+          "pluginName": "AwsMetrics"
+        }
+      ],
+      "remove:remove": [
+        {
+          "pluginName": "AwsRemove"
+        }
+      ],
+      "before:rollback:initialize": [
+        {
+          "pluginName": "AwsRollback"
+        }
+      ],
+      "rollback:rollback": [
+        {
+          "pluginName": "AwsRollback"
+        }
+      ],
+      "rollback:function:rollback": [
+        {
+          "pluginName": "AwsRollbackFunction"
+        }
+      ],
+      "package:compileLayers": [
+        {
+          "pluginName": "AwsCompileLayers"
+        }
+      ],
+      "intialize": [
+        {
+          "pluginName": "AwsCompileFunctions"
+        }
+      ],
+      "package:compileFunctions": [
+        {
+          "pluginName": "AwsCompileFunctions"
+        }
+      ],
+      "package:compileEvents": [
+        {
+          "pluginName": "AwsCompileScheduledEvents"
+        },
+        {
+          "pluginName": "AwsCompileS3Events"
+        },
+        {
+          "pluginName": "AwsCompileApigEvents"
+        },
+        {
+          "pluginName": "AwsCompileWebsockets"
+        },
+        {
+          "pluginName": "AwsCompileSNSEvents"
+        },
+        {
+          "pluginName": "AwsCompileStreamEvents"
+        },
+        {
+          "pluginName": "AwsCompileAlbEvents"
+        },
+        {
+          "pluginName": "AwsCompileAlexaSkillEvents"
+        },
+        {
+          "pluginName": "AwsCompileAlexaSmartHomeEvents"
+        },
+        {
+          "pluginName": "AwsCompileIoTEvents"
+        },
+        {
+          "pluginName": "AwsCompileCloudWatchEventEvents"
+        },
+        {
+          "pluginName": "AwsCompileCloudWatchLogEvents"
+        },
+        {
+          "pluginName": "AwsCompileCognitoUserPoolEvents"
+        },
+        {
+          "pluginName": "AwsCompileEventBridgeEvents"
+        },
+        {
+          "pluginName": "AwsCompileSQSEvents"
+        },
+        {
+          "pluginName": "AwsCompileCloudFrontEvents"
+        },
+        {
+          "pluginName": "HttpApiEvents"
+        }
+      ],
+      "after:deploy:deploy": [
+        {
+          "pluginName": "AwsCompileApigEvents"
+        },
+        {
+          "pluginName": "ServerlessPlugin"
+        }
+      ],
+      "before:remove:remove": [
+        {
+          "pluginName": "AwsCompileApigEvents"
+        },
+        {
+          "pluginName": "AwsCompileCloudFrontEvents"
+        }
+      ],
+      "initialize": [
+        {
+          "pluginName": "AwsCompileAlbEvents"
+        },
+        {
+          "pluginName": "HttpApiEvents"
+        },
+        {
+          "pluginName": "ServerlessEnterprisePlugin"
+        }
+      ],
+      "after:package:finalize": [
+        {
+          "pluginName": "AwsCompileCognitoUserPoolEvents"
+        }
+      ],
+      "deploy:function:initialize": [
+        {
+          "pluginName": "AwsDeployFunction"
+        }
+      ],
+      "deploy:function:packageFunction": [
+        {
+          "pluginName": "AwsDeployFunction"
+        }
+      ],
+      "deploy:function:deploy": [
+        {
+          "pluginName": "AwsDeployFunction"
+        }
+      ],
+      "before:deploy:list:log": [
+        {
+          "pluginName": "AwsDeployList"
+        }
+      ],
+      "before:deploy:list:functions:log": [
+        {
+          "pluginName": "AwsDeployList"
+        }
+      ],
+      "deploy:list:log": [
+        {
+          "pluginName": "AwsDeployList"
+        }
+      ],
+      "deploy:list:functions:log": [
+        {
+          "pluginName": "AwsDeployList"
+        }
+      ],
+      "before:invoke:local:loadEnvVars": [
+        {
+          "pluginName": "AwsInvokeLocal"
+        }
+      ],
+      "invoke:local:invoke": [
+        {
+          "pluginName": "AwsInvokeLocal"
+        }
+      ],
+      "upgrade:upgrade": [
+        {
+          "pluginName": "Standalone"
+        }
+      ],
+      "uninstall:uninstall": [
+        {
+          "pluginName": "Standalone"
+        }
+      ],
+      "login:login": [
+        {
+          "pluginName": "ServerlessEnterprisePlugin"
+        }
+      ],
+      "logout:logout": [
+        {
+          "pluginName": "ServerlessEnterprisePlugin"
+        }
+      ],
+      "generate-event:generate-event": [
+        {
+          "pluginName": "ServerlessEnterprisePlugin"
+        }
+      ],
+      "test:test": [
+        {
+          "pluginName": "ServerlessEnterprisePlugin"
+        }
+      ],
+      "dashboard:dashboard": [
+        {
+          "pluginName": "ServerlessEnterprisePlugin"
+        }
+      ],
+      "output:get:get": [
+        {
+          "pluginName": "ServerlessEnterprisePlugin"
+        }
+      ],
+      "output:list:list": [
+        {
+          "pluginName": "ServerlessEnterprisePlugin"
+        }
+      ],
+      "param:get:get": [
+        {
+          "pluginName": "ServerlessEnterprisePlugin"
+        }
+      ],
+      "param:list:list": [
+        {
+          "pluginName": "ServerlessEnterprisePlugin"
+        }
+      ],
+      "after:aws:deploy:finalize:cleanup": [
+        {
+          "pluginName": "ServerlessEnterprisePlugin"
+        }
+      ],
+      "studio:studio": [
+        {
+          "pluginName": "ServerlessEnterprisePlugin"
+        }
+      ],
+      "dev:dev": [
+        {
+          "pluginName": "ServerlessEnterprisePlugin"
+        }
+      ],
+      "before:interactiveCli:setupAws": [
+        {
+          "pluginName": "ServerlessEnterprisePlugin"
+        }
+      ],
+      "interactiveCli:end": [
+        {
+          "pluginName": "ServerlessEnterprisePlugin"
+        }
+      ]
+    },
+    "deprecatedEvents": {
+      "deploy:cleanup": "package:cleanup",
+      "deploy:initialize": "package:initialize",
+      "deploy:setupProviderConfiguration": "package:setupProviderConfiguration",
+      "deploy:createDeploymentArtifacts": "package:createDeploymentArtifacts",
+      "deploy:compileFunctions": "package:compileFunctions",
+      "deploy:compileEvents": "package:compileEvents"
+    }
+  },
+  "configSchemaHandler": {
+    "serverless": "[circular ref]",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "service": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "pattern": "^[a-zA-Z][0-9a-zA-Z-]+$"
+            },
+            "awsKmsKeyArn": {
+              "pattern": "^arn:(aws[a-zA-Z-]*)?:kms:[a-z0-9-]+-\\d+:\\d{12}:[^\\s]+$"
+            }
+          },
+          "additionalProperties": false
+        },
+        "frameworkVersion": {
+          "type": "string"
+        },
+        "disabledDeprecations": {
+          "anyOf": [
+            {
+              "const": "*"
+            },
+            {
+              "type": "string",
+              "pattern": "^[A-Z0-9_]+$"
+            },
+            {
+              "type": "array",
+              "items": "[circular ref]"
+            }
+          ]
+        },
+        "enableLocalInstallationFallback": {
+          "type": "boolean"
+        },
+        "custom": {
+          "type": "object",
+          "properties": {
+            "enterprise": {
+              "type": "object",
+              "properties": {
+                "collectApiGatewayLogs": {
+                  "type": "boolean"
+                },
+                "collectLambdaLogs": {
+                  "type": "boolean"
+                },
+                "compressLogs": {
+                  "type": "boolean"
+                },
+                "disableAwsSpans": {
+                  "type": "boolean"
+                },
+                "disableFrameworkInstrumentation": {
+                  "type": "boolean"
+                },
+                "disableHttpSpans": {
+                  "type": "boolean"
+                },
+                "logAccessIamRole": {
+                  "type": "string",
+                  "pattern": "^arn:"
+                },
+                "logIngestMode": {
+                  "enum": [
+                    "push",
+                    "pull"
+                  ]
+                }
+              },
+              "additionalProperties": false
+            },
+            "safeguards": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "isDisabled": {
+                      "type": "boolean"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "location": {
+                      "type": "string"
+                    },
+                    "policies": {
+                      "type": "array",
+                      "items": {
+                        "oneOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "object",
+                            "additionalProperties": {
+                              "type": "object"
+                            },
+                            "maxProperties": 1
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              ]
+            }
+          },
+          "required": []
+        },
+        "plugins": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "functions": {
+          "type": "object",
+          "patternProperties": {
+            "^[a-zA-Z0-9-_]+$": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "events": {
+                  "type": "array",
+                  "items": {
+                    "anyOf": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "__schemaWorkaround__": {
+                            "const": null
+                          }
+                        },
+                        "required": [
+                          "__schemaWorkaround__"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "schedule": {
+                            "oneOf": [
+                              {
+                                "type": "string",
+                                "pattern": "^rate\\((?:1 (?:minute|hour|day)|(?:1\\d+|[2-9]\\d*) (?:minute|hour|day)s)\\)$|^cron\\(\\S+ \\S+ \\S+ \\S+ \\S+ \\S+\\)$"
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "rate": {
+                                    "type": "string",
+                                    "pattern": "^rate\\((?:1 (?:minute|hour|day)|(?:1\\d+|[2-9]\\d*) (?:minute|hour|day)s)\\)$|^cron\\(\\S+ \\S+ \\S+ \\S+ \\S+ \\S+\\)$"
+                                  },
+                                  "enabled": {
+                                    "type": "boolean"
+                                  },
+                                  "name": {
+                                    "type": "string",
+                                    "minLength": 1,
+                                    "maxLength": 64,
+                                    "pattern": "[\\.\\-_A-Za-z0-9]+"
+                                  },
+                                  "description": {
+                                    "type": "string",
+                                    "maxLength": 512
+                                  },
+                                  "input": {
+                                    "oneOf": [
+                                      {
+                                        "type": "string",
+                                        "maxLength": 8192
+                                      },
+                                      {
+                                        "type": "object",
+                                        "oneOf": [
+                                          {
+                                            "properties": {
+                                              "body": {
+                                                "type": "string",
+                                                "maxLength": 8192
+                                              }
+                                            },
+                                            "required": [
+                                              "body"
+                                            ],
+                                            "additionalProperties": false
+                                          },
+                                          {
+                                            "not": {
+                                              "required": [
+                                                "body"
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "inputPath": {
+                                    "type": "string",
+                                    "maxLength": 256
+                                  },
+                                  "inputTransformer": {
+                                    "type": "object",
+                                    "properties": {
+                                      "inputTemplate": {
+                                        "type": "string",
+                                        "minLength": 1,
+                                        "maxLength": 8192
+                                      },
+                                      "inputPathsMap": {
+                                        "type": "object"
+                                      }
+                                    },
+                                    "required": [
+                                      "inputTemplate"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "required": [
+                                  "rate"
+                                ],
+                                "additionalProperties": false
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "schedule"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "s3": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "object"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "s3"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "http": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "object"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "http"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "websocket": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "object"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "websocket"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "sns": {
+                            "oneOf": [
+                              {
+                                "type": "string",
+                                "maxLength": 256,
+                                "pattern": "^[\\w-]+$"
+                              },
+                              "[circular ref]",
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "arn": {
+                                    "oneOf": [
+                                      "[circular ref]",
+                                      {
+                                        "oneOf": [
+                                          {
+                                            "type": "object",
+                                            "properties": {
+                                              "Fn::ImportValue": {}
+                                            },
+                                            "additionalProperties": false,
+                                            "required": [
+                                              "Fn::ImportValue"
+                                            ]
+                                          },
+                                          {
+                                            "type": "object",
+                                            "properties": {
+                                              "Fn::Join": {
+                                                "type": "array",
+                                                "minItems": 2,
+                                                "maxItems": 2,
+                                                "items": [
+                                                  {
+                                                    "type": "string",
+                                                    "minLength": 1
+                                                  },
+                                                  {
+                                                    "type": "array"
+                                                  }
+                                                ],
+                                                "additionalItems": false
+                                              }
+                                            },
+                                            "required": [
+                                              "Fn::Join"
+                                            ],
+                                            "additionalProperties": false
+                                          },
+                                          {
+                                            "type": "object",
+                                            "properties": {
+                                              "Fn::GetAtt": {
+                                                "type": "array",
+                                                "minItems": 2,
+                                                "maxItems": 2,
+                                                "items": {
+                                                  "type": "string",
+                                                  "minLength": 1
+                                                }
+                                              }
+                                            },
+                                            "required": [
+                                              "Fn::GetAtt"
+                                            ],
+                                            "additionalProperties": false
+                                          },
+                                          {
+                                            "type": "object",
+                                            "properties": {
+                                              "Ref": {
+                                                "type": "string",
+                                                "minLength": 1
+                                              }
+                                            },
+                                            "required": [
+                                              "Ref"
+                                            ],
+                                            "additionalProperties": false
+                                          },
+                                          {
+                                            "type": "object",
+                                            "properties": {
+                                              "Fn::Sub": {}
+                                            },
+                                            "required": [
+                                              "Fn::Sub"
+                                            ],
+                                            "additionalProperties": false
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "topicName": {
+                                    "type": "string",
+                                    "maxLength": 256,
+                                    "pattern": "^[\\w-]+$"
+                                  },
+                                  "displayName": {
+                                    "type": "string",
+                                    "minLength": 1
+                                  },
+                                  "filterPolicy": {
+                                    "type": "object"
+                                  },
+                                  "redrivePolicy": {
+                                    "type": "object",
+                                    "properties": {
+                                      "deadLetterTargetArn": "[circular ref]",
+                                      "deadLetterTargetRef": {
+                                        "type": "string",
+                                        "minLength": 1
+                                      },
+                                      "deadLetterTargetImport": {
+                                        "type": "object",
+                                        "properties": {
+                                          "arn": "[circular ref]",
+                                          "url": {
+                                            "type": "string",
+                                            "minLength": 1
+                                          }
+                                        },
+                                        "required": [
+                                          "arn",
+                                          "url"
+                                        ],
+                                        "additionalProperties": false
+                                      }
+                                    },
+                                    "oneOf": [
+                                      {
+                                        "required": [
+                                          "deadLetterTargetArn"
+                                        ]
+                                      },
+                                      {
+                                        "required": [
+                                          "deadLetterTargetRef"
+                                        ]
+                                      },
+                                      {
+                                        "required": [
+                                          "deadLetterTargetImport"
+                                        ]
+                                      }
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "oneOf": [
+                                  {
+                                    "required": [
+                                      "arn"
+                                    ]
+                                  },
+                                  {
+                                    "required": [
+                                      "topicName",
+                                      "displayName"
+                                    ]
+                                  }
+                                ],
+                                "additionalProperties": false
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "sns"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "stream": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "object"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "stream"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "alb": {
+                            "type": "object"
+                          }
+                        },
+                        "required": [
+                          "alb"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "alexaSkill": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "object"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "alexaSkill"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "alexaSmartHome": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "object"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "alexaSmartHome"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "iot": {
+                            "type": "object",
+                            "properties": {
+                              "sql": {
+                                "type": "string"
+                              },
+                              "sqlVersion": {
+                                "type": "string",
+                                "enum": [
+                                  "2015-10-08",
+                                  "2016-03-23",
+                                  "beta"
+                                ]
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "enabled": {
+                                "type": "boolean"
+                              },
+                              "description": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "sql"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "iot"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "cloudwatchEvent": {
+                            "type": "object"
+                          }
+                        },
+                        "required": [
+                          "cloudwatchEvent"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "cloudwatchLog": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "object"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "cloudwatchLog"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "cognitoUserPool": {
+                            "type": "object",
+                            "properties": {
+                              "pool": {
+                                "type": "string",
+                                "maxLength": 128,
+                                "pattern": "^[\\w\\s+=,.@-]+$"
+                              },
+                              "trigger": {
+                                "enum": [
+                                  "PreSignUp",
+                                  "PostConfirmation",
+                                  "PreAuthentication",
+                                  "PostAuthentication",
+                                  "PreTokenGeneration",
+                                  "CustomMessage",
+                                  "DefineAuthChallenge",
+                                  "CreateAuthChallenge",
+                                  "VerifyAuthChallengeResponse",
+                                  "UserMigration"
+                                ]
+                              },
+                              "existing": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "pool",
+                              "trigger"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "cognitoUserPool"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "eventBridge": {
+                            "type": "object",
+                            "properties": {
+                              "eventBus": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "schedule": {
+                                "pattern": "^(?:cron|rate)\\(.+\\)$"
+                              },
+                              "pattern": {
+                                "type": "object",
+                                "properties": {
+                                  "version": {},
+                                  "id": {},
+                                  "detail-type": {},
+                                  "source": {},
+                                  "account": {},
+                                  "time": {},
+                                  "region": {},
+                                  "resources": {},
+                                  "detail": {}
+                                },
+                                "additionalProperties": false
+                              },
+                              "input": {
+                                "type": "object"
+                              },
+                              "inputPath": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 256
+                              },
+                              "inputTransformer": {
+                                "type": "object",
+                                "properties": {
+                                  "inputPathsMap": {
+                                    "type": "object",
+                                    "additionalProperties": {
+                                      "type": "string",
+                                      "minLength": 1
+                                    }
+                                  },
+                                  "inputTemplate": {
+                                    "type": "string",
+                                    "minLength": 1,
+                                    "maxLength": 8192
+                                  }
+                                },
+                                "required": [
+                                  "inputTemplate"
+                                ],
+                                "additionalProperties": false
+                              }
+                            },
+                            "allOf": [
+                              {
+                                "anyOf": [
+                                  {
+                                    "required": [
+                                      "pattern"
+                                    ]
+                                  },
+                                  {
+                                    "required": [
+                                      "schedule"
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "oneOf": [
+                                  {
+                                    "required": []
+                                  },
+                                  {
+                                    "required": [
+                                      "input"
+                                    ]
+                                  },
+                                  {
+                                    "required": [
+                                      "inputPath"
+                                    ]
+                                  },
+                                  {
+                                    "required": [
+                                      "inputTransformer"
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "eventBridge"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "sqs": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "object"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "sqs"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "cloudFront": {
+                            "type": "object"
+                          }
+                        },
+                        "required": [
+                          "cloudFront"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "httpApi": {
+                            "oneOf": [
+                              {
+                                "type": "string",
+                                "regexp": "/^(?:\\*|(GET|POST|PUT|PATCH|OPTIONS|HEAD|DELETE) (\\/\\S*))$/i"
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "authorizer": {
+                                    "oneOf": [
+                                      {
+                                        "type": "string"
+                                      },
+                                      {
+                                        "type": "object",
+                                        "properties": {
+                                          "id": {
+                                            "anyOf": [
+                                              {
+                                                "type": "string"
+                                              },
+                                              "[circular ref]"
+                                            ]
+                                          },
+                                          "name": {
+                                            "type": "string"
+                                          },
+                                          "scopes": {
+                                            "oneOf": [
+                                              {
+                                                "type": "string"
+                                              },
+                                              {
+                                                "type": "array",
+                                                "items": {
+                                                  "type": "string"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        "oneOf": [
+                                          {
+                                            "required": [
+                                              "id"
+                                            ]
+                                          },
+                                          {
+                                            "required": [
+                                              "name"
+                                            ]
+                                          }
+                                        ],
+                                        "additionalProperties": false
+                                      }
+                                    ]
+                                  },
+                                  "method": {
+                                    "type": "string",
+                                    "regexp": "/^(?:\\*|GET|POST|PUT|PATCH|OPTIONS|HEAD|DELETE)$/i"
+                                  },
+                                  "path": {
+                                    "type": "string",
+                                    "regexp": "/^(?:\\*|\\/\\S*)$/"
+                                  },
+                                  "timeout": {
+                                    "type": "number",
+                                    "minimum": 0.05,
+                                    "maximum": 30
+                                  }
+                                },
+                                "required": [
+                                  "path"
+                                ],
+                                "additionalProperties": false
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "httpApi"
+                        ],
+                        "additionalProperties": false
+                      }
+                    ]
+                  }
+                },
+                "handler": {
+                  "type": "string"
+                },
+                "fileSystemConfig": {
+                  "type": "object",
+                  "properties": {
+                    "localMountPath": {
+                      "type": "string",
+                      "pattern": "^/mnt/[a-zA-Z0-9-_.]+$"
+                    },
+                    "arn": {
+                      "type": "string",
+                      "pattern": "^arn:aws[a-zA-Z-]*:elasticfilesystem:[a-z]{2}((-gov)|(-iso(b?)))?-[a-z]+-[1-9]{1}:[0-9]{12}:access-point/fsap-[a-f0-9]{17}$"
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "localMountPath",
+                    "arn"
+                  ]
+                }
+              },
+              "additionalProperties": true,
+              "required": []
+            }
+          },
+          "additionalProperties": false
+        },
+        "provider": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "const": "aws"
+            },
+            "httpApi": {
+              "type": "object",
+              "properties": {
+                "authorizers": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "identitySource": {
+                        "oneOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "[circular ref]"
+                        ]
+                      },
+                      "issuerUrl": "[circular ref]",
+                      "audience": {
+                        "oneOf": [
+                          "[circular ref]",
+                          {
+                            "type": "array",
+                            "items": "[circular ref]",
+                            "additionalItems": false
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "identitySource",
+                      "issuerUrl",
+                      "audience"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "cors": {
+                  "oneOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "allowedOrigins": {
+                          "oneOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          ]
+                        },
+                        "allowedHeaders": {
+                          "oneOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          ]
+                        },
+                        "allowedMethods": {
+                          "oneOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          ]
+                        },
+                        "allowCredentials": {
+                          "type": "boolean"
+                        },
+                        "exposedResponseHeaders": {
+                          "oneOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          ]
+                        },
+                        "maxAge": {
+                          "type": "integer",
+                          "minimum": 0
+                        }
+                      },
+                      "additionalProperties": false
+                    }
+                  ]
+                },
+                "id": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "Fn::ImportValue": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false,
+                      "required": [
+                        "Fn::ImportValue"
+                      ]
+                    }
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                },
+                "payload": {
+                  "type": "string"
+                },
+                "timeout": {
+                  "type": "number",
+                  "minimum": 0.05,
+                  "maximum": 30
+                }
+              },
+              "additionalProperties": false
+            },
+            "logs": {
+              "type": "object",
+              "properties": {
+                "httpApi": {
+                  "oneOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "format": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false
+                    }
+                  ]
+                }
+              }
+            },
+            "resourcePolicy": {
+              "type": "array",
+              "items": {
+                "type": "object"
+              }
+            },
+            "stage": {
+              "type": "string"
+            },
+            "variableSyntax": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name"
+          ],
+          "additionalProperties": true
+        },
+        "package": {
+          "type": "object",
+          "properties": {
+            "individually": {
+              "type": "boolean"
+            },
+            "path": {
+              "type": "string"
+            },
+            "artifact": {
+              "type": "string"
+            },
+            "exclude": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "include": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "excludeDevDependencies": {
+              "type": "boolean"
+            }
+          },
+          "additionalProperties": false
+        },
+        "layers": {
+          "type": "object"
+        },
+        "configValidationMode": {
+          "enum": [
+            "error",
+            "warn",
+            "off"
+          ]
+        },
+        "resources": {
+          "properties": {
+            "AWSTemplateFormatVersion": {
+              "type": "string"
+            },
+            "Description": {
+              "type": "string"
+            },
+            "Metadata": {
+              "type": "object"
+            },
+            "Parameters": {
+              "type": "object"
+            },
+            "Mappings": {
+              "type": "object"
+            },
+            "Conditions": {
+              "type": "object"
+            },
+            "Transform": {
+              "type": "object"
+            },
+            "Resources": {
+              "type": "object",
+              "patternProperties": {
+                "^[a-zA-Z0-9]{1,255}$": {
+                  "type": "object",
+                  "properties": {
+                    "Properties": {
+                      "type": "object"
+                    },
+                    "CreationPolicy": {
+                      "type": "object"
+                    },
+                    "DeletionPolicy": {
+                      "type": "string"
+                    },
+                    "DependsOn": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "Metadata": {
+                      "type": "object"
+                    },
+                    "UpdatePolicy": {
+                      "type": "object"
+                    },
+                    "UpdateReplacePolicy": {
+                      "type": "string"
+                    },
+                    "Condition": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": {
+                    "Type": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "extensions": {
+              "type": "object",
+              "patternProperties": {
+                "^[a-zA-Z0-9]{1,255}$": {
+                  "type": "object",
+                  "properties": "[circular ref]",
+                  "additionalProperties": false
+                }
+              },
+              "additionalProperties": false
+            },
+            "Outputs": {
+              "type": "object"
+            }
+          },
+          "additionalProperties": false
+        },
+        "org": {
+          "type": "string",
+          "pattern": "^[a-z0-9]{5,39}$"
+        },
+        "app": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]{1,37}[a-z0-9]$"
+        },
+        "outputs": {
+          "type": "object",
+          "patternProperties": {
+            "^[a-zA-Z0-9]+$": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "array"
+                },
+                {
+                  "type": "object"
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "provider",
+        "service"
+      ],
+      "definitions": {
+        "errorCode": "[circular ref]",
+        "awsArnString": "[circular ref]",
+        "awsArn": "[circular ref]",
+        "awsCfInstruction": "[circular ref]",
+        "awsCfFunction": "[circular ref]",
+        "awsCfImportLocallyResolvable": "[circular ref]",
+        "awsCfImport": "[circular ref]",
+        "awsCfJoin": "[circular ref]",
+        "awsCfGetAtt": "[circular ref]",
+        "awsCfRef": "[circular ref]",
+        "awsCfSub": "[circular ref]",
+        "awsResourceProperties": "[circular ref]"
+      }
+    }
+  },
+  "cliInputArgv": [
+    "deploy",
+    "-s",
+    "dev",
+    "-v"
+  ],
+  "config": {
+    "serverless": "[circular ref]",
+    "serverlessPath": "/usr/lib/node_modules/serverless/lib",
+    "servicePath": "/home/moshea/repos/slsplugindev"
+  },
+  "classes": {},
+  "serverlessDirPath": "/home/moshea/.serverless",
+  "isStandaloneExecutable": false,
+  "isLocallyInstalled": false,
+  "isInvokedByGlobalInstallation": false,
+  "triggeredDeprecations": {},
+  "onExitPromise": {},
+  "invocationId": "cc3ca2bc-c3b9-47d9-87dd-d5663d599098",
+  "instanceId": "1609020899882",
+  "cli": {
+    "serverless": "[circular ref]",
+    "inputArray": "[circular ref]",
+    "loadedPlugins": "[circular ref]",
+    "loadedCommands": {
+      "interactiveCli": {
+        "isHidden": true,
+        "options": "[circular ref]",
+        "lifecycleEvents": "[circular ref]",
+        "key": "interactiveCli",
+        "pluginName": "InteractiveCli"
+      },
+      "config": {
+        "usage": "Configure Serverless",
+        "configDependent": false,
+        "key": "config",
+        "pluginName": "AwsConfigCredentials",
+        "lifecycleEvents": "[circular ref]",
+        "commands": {
+          "credentials": {
+            "usage": "Configures a new provider profile for the Serverless Framework",
+            "lifecycleEvents": "[circular ref]",
+            "validProviders": "[circular ref]",
+            "options": "[circular ref]",
+            "key": "config:credentials",
+            "pluginName": "AwsConfigCredentials"
+          },
+          "tabcompletion": {
+            "usage": "Configure command line <tab> completion",
+            "key": "config:tabcompletion",
+            "pluginName": "Config",
+            "commands": {
+              "install": {
+                "usage": "Install a <tab> completion for chosen shell",
+                "lifecycleEvents": "[circular ref]",
+                "options": "[circular ref]",
+                "key": "config:tabcompletion:install",
+                "pluginName": "Config"
+              },
+              "uninstall": {
+                "usage": "Uninstall a <tab> completion for chosen shell",
+                "lifecycleEvents": "[circular ref]",
+                "key": "config:tabcompletion:uninstall",
+                "pluginName": "Config"
+              }
+            }
+          }
+        }
+      },
+      "create": {
+        "usage": "Create new Serverless service",
+        "lifecycleEvents": "[circular ref]",
+        "options": "[circular ref]",
+        "key": "create",
+        "pluginName": "Create"
+      },
+      "install": {
+        "usage": "Install a Serverless service from GitHub or a plugin from the Serverless registry",
+        "lifecycleEvents": "[circular ref]",
+        "options": "[circular ref]",
+        "key": "install",
+        "pluginName": "Install"
+      },
+      "package": {
+        "usage": "Packages a Serverless service",
+        "configDependent": true,
+        "lifecycleEvents": "[circular ref]",
+        "options": "[circular ref]",
+        "key": "package",
+        "pluginName": "Package"
+      },
+      "deploy": {
+        "usage": "Deploy a Serverless service",
+        "configDependent": true,
+        "lifecycleEvents": "[circular ref]",
+        "options": "[circular ref]",
+        "key": "deploy",
+        "pluginName": "Deploy",
+        "commands": {
+          "function": {
+            "usage": "Deploy a single function from the service",
+            "lifecycleEvents": "[circular ref]",
+            "options": "[circular ref]",
+            "key": "deploy:function",
+            "pluginName": "Deploy"
+          },
+          "list": {
+            "usage": "List deployed version of your Serverless Service",
+            "lifecycleEvents": "[circular ref]",
+            "key": "deploy:list",
+            "pluginName": "Deploy",
+            "commands": {
+              "functions": {
+                "usage": "List all the deployed functions and their versions",
+                "lifecycleEvents": "[circular ref]",
+                "key": "deploy:list:functions",
+                "pluginName": "Deploy"
+              }
+            }
+          }
+        }
+      },
+      "invoke": {
+        "usage": "Invoke a deployed function",
+        "configDependent": true,
+        "lifecycleEvents": "[circular ref]",
+        "options": "[circular ref]",
+        "key": "invoke",
+        "pluginName": "Invoke",
+        "commands": {
+          "local": {
+            "usage": "Invoke function locally",
+            "lifecycleEvents": "[circular ref]",
+            "options": "[circular ref]",
+            "key": "invoke:local",
+            "pluginName": "Invoke"
+          }
+        }
+      },
+      "info": {
+        "usage": "Display information about the service",
+        "configDependent": true,
+        "lifecycleEvents": "[circular ref]",
+        "options": "[circular ref]",
+        "key": "info",
+        "pluginName": "Info"
+      },
+      "logs": {
+        "usage": "Output the logs of a deployed function",
+        "configDependent": true,
+        "lifecycleEvents": "[circular ref]",
+        "options": "[circular ref]",
+        "key": "logs",
+        "pluginName": "Logs"
+      },
+      "metrics": {
+        "usage": "Show metrics for a specific function",
+        "configDependent": true,
+        "lifecycleEvents": "[circular ref]",
+        "options": "[circular ref]",
+        "key": "metrics",
+        "pluginName": "Metrics"
+      },
+      "print": {
+        "usage": "Print your compiled and resolved config file",
+        "configDependent": true,
+        "lifecycleEvents": "[circular ref]",
+        "options": "[circular ref]",
+        "key": "print",
+        "pluginName": "Print"
+      },
+      "remove": {
+        "usage": "Remove Serverless service and all resources",
+        "configDependent": true,
+        "lifecycleEvents": "[circular ref]",
+        "options": "[circular ref]",
+        "key": "remove",
+        "pluginName": "Remove"
+      },
+      "rollback": {
+        "usage": "Rollback the Serverless service to a specific deployment",
+        "configDependent": true,
+        "lifecycleEvents": "[circular ref]",
+        "options": "[circular ref]",
+        "key": "rollback",
+        "pluginName": "AwsRollbackFunction",
+        "commands": {
+          "function": {
+            "usage": "Rollback the function to a specific version",
+            "lifecycleEvents": "[circular ref]",
+            "options": "[circular ref]",
+            "key": "rollback:function",
+            "pluginName": "AwsRollbackFunction"
+          }
+        }
+      },
+      "slstats": {
+        "usage": "Enable or disable stats",
+        "configDependent": true,
+        "lifecycleEvents": "[circular ref]",
+        "options": "[circular ref]",
+        "key": "slstats",
+        "pluginName": "SlStats"
+      },
+      "plugin": {
+        "usage": "Plugin management for Serverless",
+        "lifecycleEvents": "[circular ref]",
+        "key": "plugin",
+        "pluginName": "PluginSearch",
+        "commands": {
+          "install": {
+            "usage": "Install and add a plugin to your service",
+            "lifecycleEvents": "[circular ref]",
+            "options": "[circular ref]",
+            "key": "plugin:install",
+            "pluginName": "PluginInstall"
+          },
+          "uninstall": {
+            "usage": "Uninstall and remove a plugin from your service",
+            "lifecycleEvents": "[circular ref]",
+            "options": "[circular ref]",
+            "key": "plugin:uninstall",
+            "pluginName": "PluginUninstall"
+          },
+          "list": {
+            "usage": "Lists all available plugins",
+            "lifecycleEvents": "[circular ref]",
+            "key": "plugin:list",
+            "pluginName": "PluginList"
+          },
+          "search": {
+            "usage": "Search for plugins",
+            "lifecycleEvents": "[circular ref]",
+            "options": "[circular ref]",
+            "key": "plugin:search",
+            "pluginName": "PluginSearch"
+          }
+        }
+      },
+      "upgrade": {
+        "isHidden": true,
+        "usage": "Upgrade Serverless",
+        "lifecycleEvents": "[circular ref]",
+        "options": "[circular ref]",
+        "key": "upgrade",
+        "pluginName": "Standalone"
+      },
+      "uninstall": {
+        "isHidden": true,
+        "usage": "Uninstall Serverless",
+        "lifecycleEvents": "[circular ref]",
+        "key": "uninstall",
+        "pluginName": "Standalone"
+      },
+      "login": {
+        "usage": "Login or sign up for Serverless",
+        "lifecycleEvents": "[circular ref]",
+        "enterprise": true,
+        "key": "login",
+        "pluginName": "ServerlessEnterprisePlugin"
+      },
+      "logout": {
+        "usage": "Logout from Serverless",
+        "lifecycleEvents": "[circular ref]",
+        "enterprise": true,
+        "key": "logout",
+        "pluginName": "ServerlessEnterprisePlugin"
+      },
+      "generate-event": {
+        "usage": "Generate event",
+        "lifecycleEvents": "[circular ref]",
+        "options": "[circular ref]",
+        "enterprise": true,
+        "key": "generate-event",
+        "pluginName": "ServerlessEnterprisePlugin"
+      },
+      "test": {
+        "usage": "Run HTTP tests",
+        "lifecycleEvents": "[circular ref]",
+        "options": "[circular ref]",
+        "enterprise": true,
+        "key": "test",
+        "pluginName": "ServerlessEnterprisePlugin"
+      },
+      "dashboard": {
+        "usage": "Open the Serverless dashboard",
+        "lifecycleEvents": "[circular ref]",
+        "enterprise": true,
+        "key": "dashboard",
+        "pluginName": "ServerlessEnterprisePlugin"
+      },
+      "output": {
+        "usage": "",
+        "key": "output",
+        "pluginName": "ServerlessEnterprisePlugin",
+        "lifecycleEvents": "[circular ref]",
+        "commands": {
+          "get": {
+            "usage": "Get value of dashboard deployment profile parameter",
+            "lifecycleEvents": "[circular ref]",
+            "options": "[circular ref]",
+            "key": "output:get",
+            "pluginName": "ServerlessEnterprisePlugin"
+          },
+          "list": {
+            "usage": "List all dashboard deployment profile parameters",
+            "lifecycleEvents": "[circular ref]",
+            "options": "[circular ref]",
+            "key": "output:list",
+            "pluginName": "ServerlessEnterprisePlugin"
+          }
+        }
+      },
+      "param": {
+        "usage": "",
+        "key": "param",
+        "pluginName": "ServerlessEnterprisePlugin",
+        "lifecycleEvents": "[circular ref]",
+        "commands": {
+          "get": {
+            "usage": "Get value of dashboard service output",
+            "lifecycleEvents": "[circular ref]",
+            "options": "[circular ref]",
+            "key": "param:get",
+            "pluginName": "ServerlessEnterprisePlugin"
+          },
+          "list": {
+            "usage": "List all dashboard service outputs",
+            "lifecycleEvents": "[circular ref]",
+            "options": "[circular ref]",
+            "key": "param:list",
+            "pluginName": "ServerlessEnterprisePlugin"
+          }
+        }
+      },
+      "studio": {
+        "usage": "Develop a Serverless application in the cloud.",
+        "lifecycleEvents": "[circular ref]",
+        "options": "[circular ref]",
+        "enterprise": true,
+        "configDependent": true,
+        "key": "studio",
+        "pluginName": "ServerlessEnterprisePlugin"
+      },
+      "dev": {
+        "lifecycleEvents": "[circular ref]",
+        "isHidden": true,
+        "key": "dev",
+        "pluginName": "ServerlessEnterprisePlugin"
+      }
+    }
+  },
+  "processedInput": {
+    "commands": "[circular ref]",
+    "options": "[circular ref]"
+  },
+  "httpApiEventsPlugin": "[circular ref]"
+}
+Serverless: Uploading CloudFormation file to S3...
+Serverless: Uploading artifacts...
+Serverless: Uploading service hello.zip file to S3 (21.58 KB)...
+Serverless: Validating template...
+Serverless: Updating Stack...
+Serverless: Checking Stack update progress...
+CloudFormation - UPDATE_IN_PROGRESS - AWS::CloudFormation::Stack - slsplugindev-dev
+CloudFormation - UPDATE_IN_PROGRESS - AWS::Lambda::Function - HelloLambdaFunction
+CloudFormation - UPDATE_COMPLETE - AWS::Lambda::Function - HelloLambdaFunction
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Deployment - ApiGatewayDeployment1609020899882
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Deployment - ApiGatewayDeployment1609020899882
+CloudFormation - CREATE_COMPLETE - AWS::ApiGateway::Deployment - ApiGatewayDeployment1609020899882
+CloudFormation - UPDATE_COMPLETE_CLEANUP_IN_PROGRESS - AWS::CloudFormation::Stack - slsplugindev-dev
+CloudFormation - DELETE_IN_PROGRESS - AWS::ApiGateway::Deployment - ApiGatewayDeployment1609019798083
+CloudFormation - DELETE_COMPLETE - AWS::ApiGateway::Deployment - ApiGatewayDeployment1609019798083
+CloudFormation - UPDATE_COMPLETE - AWS::CloudFormation::Stack - slsplugindev-dev
+Serverless: Stack update finished...
+Service Information
+service: slsplugindev
+stage: dev
+region: us-west-2
+stack: slsplugindev-dev
+resources: 11
+api keys:
+  None
+endpoints:
+  GET - https://q1tosfknac.execute-api.us-west-2.amazonaws.com/dev/hello
+functions:
+  hello: slsplugindev-dev-hello
+layers:
+  None
+
+Stack Outputs
+HelloLambdaFunctionQualifiedArn: arn:aws:lambda:us-west-2:455313538421:function:slsplugindev-dev-hello:1
+ServiceEndpoint: https://q1tosfknac.execute-api.us-west-2.amazonaws.com/dev
+ServerlessDeploymentBucketName: slsplugindev-dev-serverlessdeploymentbucket-622rp9t8schs
+
+Serverless: Service deployed...
+Stack outputs: : [
+  {
+    "OutputKey": "HelloLambdaFunctionQualifiedArn",
+    "OutputValue": "arn:aws:lambda:us-west-2:455313538421:function:slsplugindev-dev-hello:1",
+    "Description": "Current Lambda function version"
+  },
+  {
+    "OutputKey": "ServiceEndpoint",
+    "OutputValue": "https://q1tosfknac.execute-api.us-west-2.amazonaws.com/dev",
+    "Description": "URL of the service endpoint"
+  },
+  {
+    "OutputKey": "ServerlessDeploymentBucketName",
+    "OutputValue": "slsplugindev-dev-serverlessdeploymentbucket-622rp9t8schs"
+  }
+]
+
+**********
+Serverless: This service is safe to upgrade to a v2 Serverless Framework release
+            Run "npm install -g serverless@^2.16.1" to upgrade
+            Check: https://github.com/serverless/serverless/releases/tag/v2.0.0 for list of all breaking changes
+**********
+

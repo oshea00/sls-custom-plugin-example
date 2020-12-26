@@ -1,0 +1,39 @@
+
+service: slsplugindev
+
+provider:
+  name: aws
+  runtime: dotnetcore3.1
+  region: us-west-2
+
+plugins:
+  - myplugin
+
+package:
+  individually: true
+
+functions:
+  hello:
+    handler: CsharpHandlers::AwsDotnetCsharp.Handler::Hello
+    package:
+      artifact: bin/Release/netcoreapp3.1/hello.zip
+    events:
+      - http:
+          path: hello
+          method: get
+
+#    Define function environment variables here
+    environment:
+      variable2: value2
+
+# you can add CloudFormation resource templates here
+#resources:
+#  Resources:
+#    NewResource:
+#      Type: AWS::S3::Bucket
+#      Properties:
+#        BucketName: my-new-bucket
+#  Outputs:
+#     NewOutput:
+#       Description: "Description for the output"
+#       Value: "Some output value"
