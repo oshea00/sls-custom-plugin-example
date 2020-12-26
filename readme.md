@@ -15,10 +15,10 @@ plugins:
 7. Edit the index.js file in the myplugin directory replacing the default example.
 ## Seeing it execute
 
-To get something minimal for serverless to deploy, I chose an aws-csharp teamplate. I've already got a working dotnet
-core environment, so just need to complie using the build.sh script then run the deploy.
+To get something minimal for serverless to deploy, I chose an aws-csharp template. I've already got a working dotnet
+core environment, so just needed to compile using the build.sh script then run the deploy.
 
-This example plugin hooks in the deploy command and adds some custom processing. To see it in action:
+This example plugin hooks into the deploy command and adds some custom processing. To see it in action:
 ```
 >sls deploy -s dev -v
 ```
