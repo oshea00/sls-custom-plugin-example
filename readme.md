@@ -12,7 +12,19 @@ Example of creating a custom plugin for serverless framework.
 plugins:
  -myplugin
 ```
-7. Edit the index.js file in the myplugin directory replacing the default example.
+7. Edit the index.js file in the myplugin directory replacing the default example
+8. Add API Gateway Events ```dotnet add package Amazon.Lambda.APIGatewayEvents```
+9. Modify Handler method to accept APIGatewayProxyRequest and return APIGatewayProxyResponse
+10. Extra Credit: 
+    * Add barebones Program.cs to execute Handler in debugger or via ```dotnet run```
+    * Add PropertyGroup to csproj:
+    ```
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+    ```
+
 ## Seeing it execute
 
 To get something minimal for serverless to deploy, I chose an aws-csharp template. I've already got a working dotnet
