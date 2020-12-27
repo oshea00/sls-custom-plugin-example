@@ -18,12 +18,12 @@ plugins:
 10. Extra Credit: 
     * Add barebones Program.cs to execute Handler in debugger or via ```dotnet run```
     * Add PropertyGroup to csproj:
-    ```
-    <PropertyGroup>
-        <OutputType>Exe</OutputType>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
-    </PropertyGroup>
-    ```
+        ```
+        <PropertyGroup>
+            <OutputType>Exe</OutputType>
+            <TargetFramework>netcoreapp3.1</TargetFramework>
+        </PropertyGroup>
+        ```
 
 ## Seeing it execute
 
