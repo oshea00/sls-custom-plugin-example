@@ -1,5 +1,23 @@
 'use strict';
 
+// Example: serverless-api-client-certificate plugin. Manages client certificates on api stage.
+// allows for rotation of expiring certificates.
+/*
+To configure, add a custom configuration section:
+```
+plugins:
+  - serverless-api-client-certificate
+
+custom:
+  serverlessApiClientCertificate:
+    rotateCerts: true
+    daysLeft: 30
+```
+* The 'rotateCerts' parameter will determine whether to auto-rotate the certificate
+* The 'daysLeft' parameter will determine how many days are left until expiration before rotating a new certificate.
+*/
+
+
 class ServerlessPlugin {
   constructor(serverless, options) {
     this.serverless = serverless;
