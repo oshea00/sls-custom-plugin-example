@@ -34,7 +34,6 @@ class ServerlessPlugin {
 
   // for debugging
   beforeDeployService () {
-    // Inspect the serverless object passed into plugin.
     var cache = []
     this.serverless.cli.log(this.safePrettyStringify(this.serverless.service.custom), 'Serverless instance: ') 
   }
@@ -47,8 +46,6 @@ class ServerlessPlugin {
     var apiId = await this.getApiId()
     var stage = await this.getStage(apiId,this.stage)
     if (stage.clientCertificateId) {
-      // stage is assigned a client certificate - check expiration
-      // and rotate if rotateCerts is true
       var expirationDate = await this.getExpiration(stage.clientCertificateId)
       var daysRemaining = this.datediff(new Date(),expirationDate)
       this.serverless.cli.log(`Client Certificate Expiration: ${expirationDate}`)
@@ -63,7 +60,6 @@ class ServerlessPlugin {
         }
       }  
     } else {
-      // No client certificate - create and assign
       var certId = await this.generateCertificate()
       this.serverless.cli.log(`Created certificate: ${certId}`)
       await this.assignCertificateToStage(apiId,this.stage,certId)
@@ -72,7 +68,6 @@ class ServerlessPlugin {
   }
 
   assignCertificateToStage(apiId,stage,certId) {
-    //aws apigateway update-stage --rest-api-id API_ID --stage-name STAGE_NAME --patch-operations '[{"op":"replace","path":"/clientCertificateId","value":"CERTIFICATE_ID"}]'
     return new Promise(resolve=>{
       this.provider.request('APIGateway','updateStage',{
         restApiId: apiId,
@@ -98,8 +93,6 @@ class ServerlessPlugin {
   }
 
   datediff(first, second) {
-    // Take the difference between the dates and divide by milliseconds per day.
-    // Round to nearest whole number to deal with DST.
     return Math.round((second-first)/(1000*60*60*24));
   }
 
