@@ -7,10 +7,15 @@ provider:
   region: us-west-2
 
 plugins:
-  - myplugin
+  - serverless-api-client-certificate
 
 package:
   individually: true
+
+custom:
+  serverlessApiClientCertificate:
+    rotateCerts: true
+    daysLeft: 30
 
 functions:
   hello:
