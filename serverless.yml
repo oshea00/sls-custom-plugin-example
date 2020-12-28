@@ -42,3 +42,18 @@ functions:
 #     NewOutput:
 #       Description: "Description for the output"
 #       Value: "Some output value"
+resources:
+  Resources:
+    RestApi:
+      Type: AWS::SSM::Parameter
+      Properties:
+        Name: /services/${self:service}-${opt:stage}/apiId
+        Type: String
+        Value:
+          Ref: ApiGatewayRestApi
+  Outputs:
+    RestApi:
+      Value: 
+        Ref: ApiGatewayRestApi
+
+        
